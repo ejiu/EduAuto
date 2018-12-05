@@ -1,3 +1,3 @@
-node test.js
+node src/main.js
 
 pause

@@ -14,6 +14,7 @@ const coursesName = sheets[0]['data'][0][0];        //第一张表 第一列 第
 const pageNum = sheets[0]['data'][0][1];            //第一列 第二行 为课程页码
 let pageInfo = [];                                  //各页面模版信息
 
+
 sheets.forEach(function(sheet){
     for(let rowId in sheet['data']){
         let row=sheet['data'][rowId];
@@ -103,7 +104,7 @@ let createDir = function(srcDir, tarDir, cb) {
             //删除原文件夹,占用线程
             console.log(coursesName+"已存在,开始删除...");
             child.execSync("rmdir /s/q " + tarDir);
-            console.log("删除完成");
+            console.log("删除完成!");
         }else{
             console.log(coursesName+"已存在,自动退出")
             return;
@@ -114,15 +115,9 @@ let createDir = function(srcDir, tarDir, cb) {
 
     //创建文件夹,开始复制
     fs.mkdir(tarDir, ()=>{
-        console.log(tarDir+"根目录创建完毕,开始复制内容")
+        console.log(tarDir+"目录已创建\n开始复制内容...");
         copyContent(srcDir, tarDir, cb);
     });
 }
 
-
-createDir(configInfo.basePath, configInfo.targetPath, function(err) {
-    console.log("复制完毕");
-    if (err) {
-        return;
-    }
-});
+module.exports = createDir;

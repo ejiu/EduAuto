@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Node.js Launch",
-            "program":"${workspaceRoot}/readExcel.js",
+            "program":"${workspaceRoot}/src/main.js",
             "stopOnEntry": false,
             "args":[]
         }
