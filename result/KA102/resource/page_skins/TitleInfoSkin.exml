@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TitleInfoSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="694" height="116.81" x="5" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.title_bg" scale9Grid="34,28,11,8"/>
+	<e:Label id="titleText" text="Warming Up Greeting " x="22" y="9" verticalAlign="top" textAlign="left" anchorOffsetX="0" width="654" anchorOffsetY="0" height="107" touchEnabled="false" wordWrap="true" fontFamily="Muli" textColor="0x000000" size="34" lineSpacing="4" bold="true"/>
+	<e:Label id="secText" text="Warming Up GGGGGGreeting Warming Up GGGGGGreeting Warming Up GGGGGGreeting Wa rm in g Up GGGGGGreeting " x="22" y="53" verticalAlign="top" textAlign="left" anchorOffsetX="0" width="654" anchorOffsetY="0" height="55" touchEnabled="false" wordWrap="true" fontFamily="Muli" textColor="0x000000" size="22" lineSpacing="4"/>
+</e:Skin>

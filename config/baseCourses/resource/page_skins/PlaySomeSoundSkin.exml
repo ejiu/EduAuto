@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlaySomeSoundSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Image width="1024" height="768" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="post_item_16_png"/>
+	<e:Image name="0" id="item_0" source="post_item_59_png" x="160" y="230" anchorOffsetX="34" width="68" anchorOffsetY="29" height="58"/>
+	<e:Image name="1" id="item_1" source="post_item_59_png" x="637" y="230" anchorOffsetX="34" width="68" anchorOffsetY="29" height="58"/>
+</e:Skin>

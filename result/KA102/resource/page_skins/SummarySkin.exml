@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SummarySkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0"  source="bg_01_jpg"/>
+	<e:Image width="931" height="540" x="37.83" y="125.34" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"
+	         source="preload_json.blackboard_bg" scale9Grid="126,102,46,44" />
+	<e:Image width="533" height="97" x="237.33" y="655" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"
+	         source="preload_json.blackboard_stand" scale9Grid="105,0,32,79" />
+	<e:Label text="Key Words" x="164" y="176.01" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="318.85" anchorOffsetY="0" height="93.99" touchEnabled="false" wordWrap="true" fontFamily="Muli" textColor="0x000000" size="35" lineSpacing="4" bold="true"/>
+	<e:Label text="Sentence Pattern" x="164" y="420" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="333.85" anchorOffsetY="0" height="93.99" touchEnabled="false" wordWrap="true" fontFamily="Muli" textColor="0x000000" size="35" lineSpacing="4" bold="true"/>
+	<e:Label text="Phonics Fun" x="590" y="420" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="333.85" anchorOffsetY="0" height="93.99" touchEnabled="false" wordWrap="true" fontFamily="Muli" textColor="0x000000" size="35" lineSpacing="4" bold="true"/>
+	<e:Label text="clothes              red packets\nfireworks          Spring Festival Gala" x="166" y="278" verticalAlign="top" textAlign="left"
+	         anchorOffsetX="0" width="650.19" anchorOffsetY="0" height="120.99" touchEnabled="false" wordWrap="true"
+	         fontFamily="Muli" textColor="0x000000" size="30" lineSpacing="30" />
+	<e:Label id="label1" text="I watch fireworks during the Chinese New Year. " x="166" y="500" verticalAlign="middle" textAlign="left" anchorOffsetX="0"
+	         width="388.19" anchorOffsetY="0" height="120" touchEnabled="false" wordWrap="true"
+	         fontFamily="Muli" textColor="0x000000" size="30" lineSpacing="20" />
+	<e:Label id="label2" text="o-e [long’o’ ]\nhome, bone" x="590" y="500" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="437.19"
+	         anchorOffsetY="0" height="120" touchEnabled="false" wordWrap="true" fontFamily="Muli"
+	         textColor="0x000000" size="30" lineSpacing="20" />
+</e:Skin>

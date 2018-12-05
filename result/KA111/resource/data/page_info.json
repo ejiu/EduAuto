@@ -1,0 +1,315 @@
+{
+    "pageCount":38,  
+
+    "page1": {
+        "tips":"【This is for teacher's use ONLY.】\n【Please do NOT let students see this slide.】",    
+        "resources":
+        [
+            "post_item_1_jpg"
+        ]
+    },
+
+    "page2":
+    {
+        "tips":"1 min\n1. Introduce UU (left) and Uki (right) to the students. Uki is UU's little sister.\n2. Give a brief intro about the lesson today.",    
+        "resources":
+        [
+            "post_item_2_jpg"
+        ]
+    } ,
+    "page3":
+    {
+        "tips":"1 min\n1. Invite all 4 students to the stage (so that they can see each other and say 'hi').\n2. Say 'hi' to each student.",    
+        "resources":
+        [
+            "post_item_3_jpg"
+        ]
+    },
+    "page4":
+    {
+        "tips":"Each lesson always starts with a warm up activity.",    
+        "resources":
+        [
+            "post_item_4_jpg"
+        ]
+    },
+    "page5":
+    {
+        "tips":"Warm-up activity: Hello and Hi\n1. T invites a student to the stage. If T says hello, S says hi in reply. If T says Hi, S says Hello in reply.\n2. Award participating students.",    
+        "resources":
+        [
+            "post_item_5_jpg"
+        ]
+    },
+    "page6":
+    {
+        "tips":"”Let's learn” section is where students can learn new words and sentences.",    
+        "resources":
+        [
+            "post_item_6_jpg"
+        ]
+    },
+    "page7":
+    {
+        "tips":"2 mins\n1. Introduce and teach the new words.\n2. Let the students read the words in turn.\n3. Correct the students pronunciation.\n4. Award the participating students.",    
+        "resources":
+        [
+            "post_item_7_jpg"
+        ]
+    },
+    "page8":
+    {
+        "tips":"2 mins\n1. Introduce and teach the new words.\n2. Let the students read the words in turn.\n3. Correct the students pronunciation.\n4. Award the participating students.",    
+        "resources":
+        [
+            "post_item_8_jpg"
+        ]
+    },
+    "page9":
+    {
+        "tips":"2 mins\n1. Introduce and teach the new words.\n2. Let the students read the words in turn.\n3. Correct the students pronunciation.\n4. Award the participating students.",    
+        "resources":
+        [
+            "post_item_9_jpg"
+        ]
+    },
+    "page10":
+    {
+        "tips":"“Let's play” section is composed of interactive games.",    
+        "resources":
+        [
+            "post_item_10_jpg","post_item_49_png","post_item_50_png","post_item_51_png","post_item_52_png","post_item_53_png","post_item_54_png"
+        ]
+    },
+    "page11":
+    {
+        "tips":"2 mins\n1. Ask “Who wants to be a helper? Put up your hand”. \n2. Invite one student to the stage.\n3. Click on the dice.\n4. Ask the students to say the word.\n5. Award student who expresses properly with one diamond.\n6. Play again if necessary.",    
+        "resources":
+        [
+            "post_item_11_jpg"
+        ]
+    },
+    "page12":
+    {
+        "tips":"2 mins \n1. Each time invite one student to the stage. \n2. Ask the student on the stage to read and drag the pictures to make a match.\n3. Award as needed.",   
+        "resources":
+        [
+            "post_item_12_jpg"
+        ]
+    },
+    "page13":
+    {
+        "tips":"2 mins \n1. Each time invite one student to the stage. \n2. Ask the student on the stage to read and drag the pictures to make a match.\n3. Award as needed.",    
+        "studentPos":[
+        {
+            "posX":0,
+            "posY":588
+        },
+        {
+            "posX":844,
+            "posY":588
+        }],
+        "isInteraction": true,
+        "resources":
+        [
+            "post_item_1_jpg"
+        ]
+    },
+    "page14":
+    {
+        "tips":"“Let's say” section is composed of dialogue practice.",    
+        "resources":
+        [
+            "post_item_1_jpg"
+        ]
+    },
+    "page15":
+    {
+        "tips":"1 min\n1. Ask and answer with the students.\n2. Demonstrate if needed.",    
+        "resources":
+        [
+            "post_item_13_jpg"
+        ]
+    },
+    "page16": {
+        "tips":"1 min\n1. Ask and answer with the students.\n2. Demonstrate if needed.",    
+        "resources":
+        [
+            "post_item_14_jpg"
+        ]
+    },
+    "page17": {
+        "tips":"“Let's play” section is composed of interactive games.",    
+        "resources":
+        [
+            "post_item_15_jpg"
+        ]
+    },
+    "page18": {
+        "tips":"2 mins\n1. Each time invite one student to the stage. \n2. Ask the student on the stage to pick a card.\n3. Ask and answer with each student.",    
+        "resources":
+        [
+            "post_item_16_jpg"
+        ]
+    },
+    "page19": {
+        "tips":"“Let's say” section is composed of dialogue practice.",    
+        "resources":
+        [
+            "post_item_17_jpg"
+        ]
+    },
+    "page20":
+    {
+        "tips":"1 min\n1. Ask and answer with the students.\n2. Demonstrate if needed.",    
+        "resources":
+        [
+           "post_item_18_jpg"
+        ]
+    } ,
+    "page21":
+    {
+        "tips":"1 min\n1. Ask and answer with the students.\n2. Demonstrate if needed.",    
+        "resources":
+        [
+            "post_item_19_jpg"
+        ]
+    } ,
+    "page22":
+    {
+        "tips":"1 min\n1. Ask and answer with the students.\n2. Demonstrate if needed.",    
+        "resources":
+        [
+            "post_item_20_jpg"
+        ]
+    } ,
+    "page23":
+    {
+        "tips":"“Role play” section is composed of interactive games and dialogue practices.",    
+        "resources":
+        [
+            "post_item_21_jpg"
+        ]
+    } ,
+    "page24":
+    {
+        "tips":"1 min\n1. Invite two students to the stage.\n2. Students role play with their partners.",    
+        "resources":
+        [
+            "post_item_22_jpg"
+        ]
+    } ,
+    "page25":
+    {
+        "tips":"1 min\n1. Invite two students to the stage.\n2. Students role play with their partners.",    
+        "resources":
+        [
+            "post_item_23_jpg"
+        ]
+    } ,
+    "page26":
+    {
+        "tips":"1 min\n1. Invite two students to the stage.\n2. Students role play with their partners.",    
+        "resources":
+        [
+            "post_item_24_jpg"
+        ]
+    } ,
+    "page27":
+    {
+        "tips":"“Let’s say” section is composed of dialogue practices.",    
+        "resources":
+        [
+            "post_item_25_jpg"
+        ]
+    } ,
+    "page28":
+    {
+        "tips":"1 min \n1. Ask and answer with students.\n2. Repeat the conversation several times if needed.",    
+        "resources":
+        [
+            "post_item_26_jpg"
+        ]
+    } ,
+    "page29":
+    {
+        "tips":"1 min \n1. Ask and answer with students.\n2. Repeat the conversation several times if needed.",    
+        "resources":
+        [
+            "post_item_27_jpg"
+        ]
+    } ,
+    "page30":
+    {
+        "tips":"“Role play” section is composed of interactive games and dialogue practices.",    
+        "resources":
+        [
+            "post_item_28_jpg"
+        ]
+    },
+    "page31":
+    {
+        "tips":"1 min\n1. Invite two students to the stage.\n2. Students role play with their partners.",    
+        "resources":
+        [
+            "post_item_29_jpg"
+        ]
+    },
+    "page32":
+    {
+        "tips":"1 min\n1. Invite two students to the stage.\n2. Students role play with their partners.",    
+        "resources":
+        [
+            "post_item_30_jpg"
+        ]
+    },
+    "page33":
+    {
+        "tips":"1 min \nGive positive feedback to the students.",    
+        "resources":
+        [
+            "post_item_31_jpg"
+        ]
+    },
+    "page34":
+    {
+        "tips":"2-3 mins\n1. Review the lesson.\n2. Ask the students to repeat the words and sentences as needed.",    
+        "resources":
+        [
+            "post_item_32_jpg"
+        ]
+    },
+    "page35":
+    {
+        "tips":"2-3 mins\n1. Review the lesson.\n2. Ask the students to repeat the words and sentences as needed.",    
+        "resources":
+        [
+            "post_item_33_jpg"
+        ]
+    },
+    "page36":
+    {
+        "tips":"2-3 mins\n1. Review the lesson.\n2. Ask the students to repeat the words and sentences as needed.",    
+        "resources":
+        [
+            "post_item_34_jpg"
+        ]
+    },
+    "page37":
+    {
+        "tips":"1. Assign the homework.",    
+        "resources":
+        [
+            "post_item_35_jpg"
+        ]
+    },
+    "page38":
+    {
+        "tips":"Say goodbye!",    
+        "resources":
+        [
+            "post_item_36_jpg"
+        ]
+    }
+    
+}

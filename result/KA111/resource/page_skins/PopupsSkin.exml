@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PopupsSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="570" height="400" x="227" y="220" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="popupbg_png"/>
+	<e:Image id="showImg" width="400" height="300" x="313" y="300" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source=""/>
+	<e:Label id="showText" text="hungry" x="241.84" y="233.98" textColor="0x000000" size="48" touchEnabled="false" textAlign="center" anchorOffsetX="0" width="540.34" fontFamily="Muli" anchorOffsetY="0" height="70.26"/>
+	<e:Image id="close" width="48" height="48" x="722.3" y="243.29" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.btn_close"/>
+</e:Skin>

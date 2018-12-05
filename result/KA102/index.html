@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+		@font-face
+		{
+			font-family:"Muli";
+			src: url('./resource/fonts/Muli-Regular.ttf'),
+				 url('./resource/fonts/Muli-Bold.ttf'),
+				 url('./resource/fonts/Muli-Italic.ttf'),
+				 url('./resource/fonts/Muli-BoldItalic.ttf');
+		}
+        html, body {
+            touch-action: none;
+            background: #a0d049;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+			
+			overflow: hidden;
+			-webkit-user-select: none; 
+			-moz-user-select: none; 
+			-ms-user-select: none; 
+			user-select: none; 
+        }
+        #preloading{
+            z-index: 1000;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="preloading"><img src="resource/images/loading/PreLoadingBg.png" /></div>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="showAll"
+         data-frame-rate="30"
+         data-content-width="1024"
+         data-content-height="768"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+<script>
+	init();	
+	function init(){
+		//设置鼠标右键
+		document.oncontextmenu=function(){
+			return false;
+		}
+		//跨域设置
+        /*
+		if(document.domain !='uuabc.com' ){
+			document.domain = 'uuabc.com';
+		}
+        //*/
+	}
+
+    var loadScript = function (list, callback) {
+        var loaded = 0;
+        var loadNext = function () {
+            loadSingleScript(list[loaded], function () {
+                loaded++;
+                if (loaded >= list.length) {
+                    callback();
+                }
+                else {
+                    loadNext();
+                }
+            })
+        };
+        loadNext();
+    };
+
+    var loadSingleScript = function (src, callback) {
+        var s = document.createElement('script');
+        s.async = false;
+        s.src = src;
+        s.addEventListener('load', function () {
+            s.parentNode.removeChild(s);
+            s.removeEventListener('load', arguments.callee, false);
+            callback();
+        }, false);
+        document.body.appendChild(s);
+    };
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', './manifest.json?v=' + Math.random(), true);
+    xhr.addEventListener("load", function () {
+        var manifest = JSON.parse(xhr.response);
+        var list = manifest.initial.concat(manifest.game);
+        loadScript(list, function () {
+            /**
+             * {
+             * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
+             * "audioType": 0 //Use the audio type, 0: default, 2: web audio, 3: audio
+             * "antialias": //Whether the anti-aliasing is enabled in WebGL mode, true: on, false: off, defaults to false
+             * "calculateCanvasScaleFactor": //a function return canvas scale factor
+             * }
+             **/
+            egret.runEgret({ renderMode: "webgl", audioType: 0, calculateCanvasScaleFactor:function(context) {
+                var backingStore = context.backingStorePixelRatio ||
+                    context.webkitBackingStorePixelRatio ||
+                    context.mozBackingStorePixelRatio ||
+                    context.msBackingStorePixelRatio ||
+                    context.oBackingStorePixelRatio ||
+                    context.backingStorePixelRatio || 1;
+                return (window.devicePixelRatio || 1) / backingStore;
+            }});
+        });
+    });
+    xhr.send(null);
+    function loadingBegin(){
+        document.getElementById("preloading").style.display = "none";
+	}
+
+    var callbackSendMsg;
+	function callbackInSendMsg(msg) {
+        /*
+        if(null != callbackSendMsg)
+        {
+            callbackSendMsg(msg);
+        }
+        */
+		PageMgr.receiveMsg(msg);       
+	}    
+
+    var callbackPageLoaded;
+	function callbackInPageLoaded(isSingle, isInteraction){
+        /*
+        if(null != callbackPageLoaded)
+		{
+            callbackPageLoaded(isSingle, isInteraction);
+        }
+        */
+	}
+
+    var callbackResLoaded;
+	function callbackInResLoaded(allPageCount){
+        /*
+        if(null != callbackResLoaded)
+		{
+            callbackResLoaded(allPageCount);
+        }
+        */
+	}
+    
+    var progressNum;
+	function progressNumIn(tProgressNum){
+        /*
+        if(null != progressNum)
+		{
+            progressNum(tProgressNum);
+        }
+        */
+	}
+    
+    var mouseClick;
+	function mouseClickIn(tStageX,tStageY){
+        /*
+        if(null != mouseClick)
+		{
+            mouseClick(tStageX,tStageY);
+        }
+        */
+	}
+
+    
+    var mouseDown;
+	function mouseDownIn(tStageX,tStageY){
+        /*
+        if(null != mouseDown)
+		{
+            mouseDown(tStageX,tStageY);
+        }
+        */
+	}
+
+    
+    var mouseMove;
+	function mouseMoveIn(tStageX,tStageY){
+        /*
+        if(null != mouseMove)
+		{
+            mouseMove(tStageX,tStageY);
+        }
+        */
+	}
+
+    var mouseUp;
+	function mouseUpIn(tStageX,tStageY){
+        /*
+        if(null != mouseUp)
+		{
+            mouseUp(tStageX,tStageY);
+        }
+        */
+	}
+
+</script>
+</body>
+
+</html>
