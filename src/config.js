@@ -13,4 +13,3 @@ module.exports = {
     testPath : testPath,
     autoCover : autoCover
 };
-

@@ -1,13 +1,17 @@
-const fs = require('fs');
+'use strict';
 
-function readSyncByfs(tips) {
-    tips = tips || '> ';
-    process.stdout.write(tips);
-    process.stdin.pause();
+let testFunc1 = function(str){
+    console.log(1+str);
+}
 
-    const buf = Buffer.allocUnsafe(10000);
-    fs.readSync(process.stdin.fd, buf, 0, 10000, 0);
-    process.stdin.end();
+let testFunc2 = function(str){
+    console.log(2+str);
+}
 
-    return buf.toString('utf8', 0, response).trim();
+let num = 1;
+
+module.exports = {
+    n : num,
+    fun1 : testFunc1,
+    fun2 : testFunc2
 }
