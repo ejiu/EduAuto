@@ -1,24 +1,28 @@
 'use strict';
 
-const excelInfo = require('./readExcel.js');
+const targetInfo = require('./readTargetExcel.js');
+const templateInfo = require('./readTemplateExcel.js');
 const create = require('./createFolder.js');
-const configInfo = require('./config.js');
+const config = require('./config.js');
+const assembly = require('./assembly.js');
+
 const test = require('./test.js');
 
-//步骤一: 读取Excel表格信息
-console.log(excelInfo.coursesName);
-excelInfo.pageInfo.forEach((item)=>{
-    console.log(item);
-});
-console.log(excelInfo.pageInfo.length);
+////step1: 读取Excel表格信息
+// console.log(targetInfo.coursesName);
+// targetInfo.pageInfo.forEach((item)=>{
+//     console.log(item);
+// });
+// console.log(targetInfo.pageInfo.length);
 
-//步骤二: 根据配置表创建新项目文件夹,并复制基础内容
-//crate(srcPath, targetPath, coursesName, callback)
-create(configInfo.basePath, configInfo.targetPath, excelInfo.coursesName, configInfo.autoCover, (err)=>{
-    console.log("复制完毕!");
-    if (err) {
-        console.log(err);
-    }
-});
+// //step2: 根据配置表创建新项目文件夹,并复制基础内容
+// create(config.basePath, config.targetPath, targetInfo.coursesName, config.autoCover, (err)=>{
+//     console.log("项目创建完毕!");
+//     if (err) {
+//         console.log(err);
+//     }
+// });
 
-//步骤三: 根据配置表,复制模版内容及资源图片
+//step3: 根据配置表,复制模版内容及资源图片
+assembly.copyTemplate();
+assembly.copyResource();

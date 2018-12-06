@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ReadWordPicSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="wordAni">
+			<tween:TweenItem target="{group}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1035}" y="{213.5}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object y="{213.5}" x="{196}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="3450">
+					<tween:props>
+						<e:Object alpha="{0.94}" x="{196}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="450">
+					<tween:props>
+						<e:Object x="{483}" alpha="{0.4}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="400">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{group0}">
+				<tween:Wait duration="1000"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1024}" y="{213.5}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object y="{213.5}" x="{366.67}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="2450">
+					<tween:props>
+						<e:Object alpha="{0.94}" x="{366.67}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="450">
+					<tween:props>
+						<e:Object x="{483}" alpha="{0.4}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="400">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{group1}">
+				<tween:Wait duration="2000"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1062.5}" y="{213.5}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object y="{213.5}" x="{537.34}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="1450">
+					<tween:props>
+						<e:Object alpha="{0.94}" x="{537.34}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="450">
+					<tween:props>
+						<e:Object x="{483}" alpha="{0.4}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="400">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{group2}">
+				<tween:Wait duration="3000"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{1024}" y="{213.5}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object y="{213.5}" x="{708}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="450">
+					<tween:props>
+						<e:Object alpha="{1}" x="{708}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="450">
+					<tween:props>
+						<e:Object x="{483}" alpha="{0.4}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="400">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{groupEnd}">
+				<tween:Wait duration="4450"/>
+				<tween:Set>
+				<tween:props>
+					<e:Object width="{226.68}" height="{126.33}" y="{331}" alpha="{0}" x="{530}"/>
+				</tween:props>
+				</tween:Set>
+				<tween:To duration="850">
+				<tween:props>
+					<e:Object alpha="{1}" y="{331}" x="{530}"/>
+				</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="15f8a9eb31a"/>
+	<e:Image width="1024" height="768" x="0" y="0" touchEnabled="false" source="bg1_jpg"/>	
+	<e:Image width="931" height="540" x="49.82" y="125.34" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" scale9Grid="126,102,46,44" source="preload_json.blackboard_bg"/>
+	<e:Image width="533" height="97" x="249.15" y="655" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" scale9Grid="105,0,32,79" source="preload_json.blackboard_stand"/>
+	<e:Label id="ie" text="i-e" y="257.94" anchorOffsetX="148.94" width="312.61" anchorOffsetY="95.49" height="179.79" touchEnabled="false" fontFamily="Comic Sans MS" size="150" textAlign="center" verticalAlign="middle" name="0" lineSpacing="24" textColor="0xe00202" horizontalCenter="0.5"/>
+	<e:Label id="EndLab0" text="nine" x="299.95" y="409.72" anchorOffsetX="53.31" width="105.06" anchorOffsetY="48.77" height="47.79" touchEnabled="true" fontFamily="Comic Sans MS" size="28" textAlign="center" verticalAlign="middle" name="0" textColor="0x000000"/>
+	<e:Label id="EndLab1" text="kite" x="699.89" y="413.72" anchorOffsetX="68" width="130.06" anchorOffsetY="58" height="58.79" touchEnabled="true" size="28" fontFamily="Comic Sans MS" textAlign="center" verticalAlign="middle" name="1" textColor="0x000000"/>
+	<e:Component id="effect0" width="1" height="1" x="292" y="521.72" touchEnabled="false"/>
+	<e:Component width="1" height="1" x="711.32" y="525.72" id="effect1" touchEnabled="false"/>
+	<e:Image width="173.67" height="79" x="210.33" y="343.72" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" touchEnabled="true" source=""/>
+	<e:Image width="173.67" height="79" x="614.08" y="343.72" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" touchEnabled="true" source=""/>
+	<e:Group id="group" x="1043" y="239.5" touchThrough="false">
+		<e:Image width="120" height="120" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="letter_bg_png" touchEnabled="false"/>
+		<e:Label id="Lab" text="a" x="0" y="0" size="68" height="95" textColor="0x000000" width="120" verticalAlign="middle" textAlign="center" touchEnabled="false" fontFamily="Comic Sans MS" anchorOffsetY="0"/>
+	</e:Group>
+	<e:Group id="group0" x="1043" y="484" width="87" height="87" touchThrough="false">
+		<e:Image width="120" height="120" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="letter_bg_png" touchEnabled="false"/>
+		<e:Label id="Lab0" text="i" x="0" y="0" size="68" height="95" textColor="0x000000" anchorOffsetX="0" width="120" anchorOffsetY="0" textAlign="center" verticalAlign="middle" touchEnabled="false" fontFamily="Comic Sans MS"/>
+	</e:Group>
+	<e:Group id="group1" x="1042.5" y="597" touchEnabled="false">
+		<e:Image width="120" height="120" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="letter_bg_png" touchEnabled="false"/>
+		<e:Label id="Lab1" text="v" x="0" y="0" size="68" height="95" textColor="0x000000" width="120" verticalAlign="middle" textAlign="center" touchEnabled="false" fontFamily="Comic Sans MS"/>
+	</e:Group>
+	<e:Group id="group2" x="1048.5" y="710" touchThrough="false">
+		<e:Image width="120" height="120" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="letter_bg_png" touchEnabled="false"/>
+		<e:Label id="Lab2" text="e" x="0" y="0" size="68" height="95" textColor="0x000000" width="120" verticalAlign="middle" textAlign="center" touchEnabled="false" fontFamily="Comic Sans MS"/>
+	</e:Group>
+	<e:Group id="groupEnd" x="1168.5" y="307" touchEnabled="false" anchorOffsetX="114" anchorOffsetY="114">
+		<e:Image width="227.67" height="120" x="3" y="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="word_bg_png" touchEnabled="false"/>
+		<e:Label id="LabEnd" text="pqiyl" x="0" y="0" size="68" height="95" textColor="0x000000" anchorOffsetX="0" width="221" anchorOffsetY="0" textAlign="center" verticalAlign="middle" touchEnabled="false" fontFamily="Comic Sans MS"/>
+	</e:Group>
+	<e:Image id="clickImg1" name="1" source="post_item_101_png" x="622.65" y="400" anchorOffsetX="0" width="151.7" anchorOffsetY="0" height="251"/>
+	<e:Image id="clickImg0" name="0" source="post_item_106_png" x="181" y="454.34" anchorOffsetX="0" width="250.68" anchorOffsetY="0" height="144.38"/>
+</e:Skin>

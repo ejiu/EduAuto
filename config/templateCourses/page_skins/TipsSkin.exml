@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="hint" width="88" height="42" x="921" y="12" anchorOffsetX="0" anchorOffsetY="0" source="preload_json.btn_tips"/>
+	<e:Group id="tipsGroup" width="1" height="1" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false">
+		<e:Image width="1021" height="240" x="2.66" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" scaleX="1" scaleY="1" source="preload_json.tips_bg" scale9Grid="33,5,15,7" alpha="0.95"/>
+		<e:Label id="tipsText" text="Warming Up Greeting" x="19.48" y="3" verticalAlign="top" textAlign="left" anchorOffsetX="0" width="916.19" anchorOffsetY="0" height="221.66" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" textColor="0x000000" scaleY="1" scaleX="1"/>
+		<e:Image id="close" width="59" height="61" x="938.96" y="2.66" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="preload_json.btn_close"/>
+	</e:Group>
+</e:Skin>

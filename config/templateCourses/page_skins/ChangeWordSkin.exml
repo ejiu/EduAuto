@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChangeWordSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1024" height="768" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="bg7_jpg"/>
+	<e:Image id="tbCheck" width="88" height="42" x="820.84" y="12" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="preload_json.btn_answer"/>
+	<e:Image id="tbReset" width="88" height="42" x="722.2" y="12" anchorOffsetX="0" anchorOffsetY="0" source="preload_json.btn_reset"/>
+	<e:Image width="270" height="270" x="148" y="269" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" scale9Grid="98,43,14,15" source="qiuqian_png"/>
+	<e:Label text="I can see a sw_______." x="464.84" y="388" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="400" anchorOffsetY="0" height="50" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" textColor="0x000000" size="28" multiline="true" lineSpacing="24"/>
+	<e:Label text="What can you see?" x="464.84" y="322" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="400" anchorOffsetY="0" height="50" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" textColor="0x000000" size="28" multiline="true" lineSpacing="24"/>
+	<e:Image id="img0" width="225" height="63" x="140.34" y="164.5" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.btn_choose" scale9Grid="54,44,173,0"/>	
+	<e:Label id="word0" text="this" x="254.5" y="192" anchorOffsetX="115" width="230" anchorOffsetY="25" height="50" touchEnabled="true" wordWrap="true" fontFamily="Comic Sans MS" size="28" multiline="true" lineSpacing="24" name="0" textColor="0x000000" textAlign="center" verticalAlign="middle"/>
+	<e:Image id="img1" width="225" height="63" x="415.34" y="164.5" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.btn_choose" scale9Grid="54,44,173,0"/>	
+	<e:Label id="word1" text="got" x="526.34" y="192" anchorOffsetX="115" width="230" anchorOffsetY="25" height="50" touchEnabled="true" wordWrap="true" fontFamily="Comic Sans MS" size="28" multiline="true" lineSpacing="24" name="1" textColor="0x000000" textAlign="center" verticalAlign="middle"/>
+	<e:Image id="img2" width="225" height="63" x="681.34" y="164.5" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.btn_choose" scale9Grid="54,44,173,0"/>	
+	<e:Label id="word2" text="aaabbbcccddde" x="791.5" y="192" anchorOffsetX="115" width="230" anchorOffsetY="25" height="50" touchEnabled="true" wordWrap="true" fontFamily="Comic Sans MS" size="28" multiline="true" lineSpacing="24" name="2" textColor="0x000000" textAlign="center" verticalAlign="middle"/>
+	<e:Label id="endword" text="ong" x="671.2" y="413" verticalAlign="middle" textAlign="center" anchorOffsetX="115" width="230" anchorOffsetY="25" height="50" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" textColor="0x000000" size="28" multiline="true" lineSpacing="24" name="2"/>
+</e:Skin>

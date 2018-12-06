@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PuzzleSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="roombg" width="1024" height="768" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="bg7_jpg"/>
+	<e:Image id="tbReset" width="88" height="42" x="821" y="12" anchorOffsetX="0" anchorOffsetY="0" source="preload_json.btn_reset"/>
+	<e:Image id="item_8" width="190" height="190" x="95" y="95" anchorOffsetX="95" anchorOffsetY="95" name="item_0" touchEnabled="false" scaleX="1" source=""/>
+	<e:Image id="item_9" width="190" height="190" x="95" y="95" anchorOffsetX="95" anchorOffsetY="95" name="item_1" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="item_10" width="190" height="190" x="95" y="95" anchorOffsetX="95" anchorOffsetY="95" name="item_2" touchEnabled="false" scaleX="1" source=""/>
+	<e:Image id="item_11" width="190" height="190" x="95" y="95" anchorOffsetX="95" anchorOffsetY="95" name="item_3" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="item_12" width="190" height="190" x="95" y="95" anchorOffsetX="95" anchorOffsetY="95" name="item_4" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="item_0" height="152"    x="202.31" y="295.94" anchorOffsetX="76.34" anchorOffsetY="76"    name="0" scaleX="1" touchEnabled="false" width="152.66" source=""/>
+	<e:Image id="item_1" height="153" x="160.15" y="472.32" anchorOffsetX="81.84" anchorOffsetY="76.07" name="1" touchEnabled="false" width="167" source=""/>
+	<e:Image id="item_2" height="169" x="810.31" y="223.35" anchorOffsetX="84.43" anchorOffsetY="85.1" name="2" scaleX="1" touchEnabled="false" width="170" source=""/>
+	<e:Image id="item_3" height="167.27" x="865.01" y="475.36" anchorOffsetX="76.72" anchorOffsetY="83.63" name="3" touchEnabled="false" width="153.44" source=""/>
+	<e:Image id="item_4" width="151.67" height="164.71" x="662.53" y="638.57" anchorOffsetX="75.99" anchorOffsetY="82.36" name="4" touchEnabled="false" source=""/>		
+	<e:Image width="309.33" height="309.33" x="511.81" y="377.99"  anchorOffsetX="154.67" anchorOffsetY="154.67" name="0" scaleX="1" touchEnabled="false" source="outline_png"/>
+	<e:Image id="resultPos_0" height="152"   x="434.87" y="301.35"   anchorOffsetX="76.34" anchorOffsetY="76"   name="0" scaleX="1" touchEnabled="false" width="152.66" source=""/>
+	<e:Image id="resultPos_1" height="152.13" x="583" y="301"  anchorOffsetX="81.84" anchorOffsetY="76.07" name="1" touchEnabled="false" width="165" source=""/>
+	<e:Image id="resultPos_2" height="170.2" x="443.5" y="446.5"  anchorOffsetX="84.43" anchorOffsetY="85.1"  name="2" scaleX="1" touchEnabled="false" width="170" source=""/>
+	<e:Image id="resultPos_3" height="167.27" x="588.79" y="447.52"  anchorOffsetX="76.72" anchorOffsetY="83.63" name="3" touchEnabled="false" width="153.44" source=""/>
+	<e:Image id="showImg" width="309.33" height="309.33" x="512.01" y="377.99" anchorOffsetX="154.67" anchorOffsetY="154.67" name="0" scaleX="1" touchEnabled="false" source="puzzle_png"/>
+	<e:Image id="showBImg" width="309.33" height="309.33" x="512.01" y="377.99" anchorOffsetX="154.67" anchorOffsetY="154.67" name="1" scaleX="1" touchEnabled="false" source="puzzleBg_png"/>
+</e:Skin>

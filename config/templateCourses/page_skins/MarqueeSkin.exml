@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MarqueeSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Image id="roombg" width="1024" anchorOffsetX="0" anchorOffsetY="0" height="768" y="0" x="0" touchEnabled="false" source="bg7_jpg"/>
+	<e:Image source="preload_json.Mask" x="0" y="0" width="1024" height="768" visible="false"/>
+	<e:Image width="560.01" anchorOffsetX="0" anchorOffsetY="0" height="560.01" y="125.9" x="387.81" touchEnabled="false" source="preload_json.marquee_bg" scale9Grid="47,48,25,31"/>
+	<e:Image id="bgImg0" width="125" anchorOffsetX="0" anchorOffsetY="0" height="125" y="143.59" x="404.16" touchEnabled="false" source="preload_json.marquee"/>
+	<e:Image id="bgImg1" width="125" anchorOffsetX="0" anchorOffsetY="0" height="125" y="143.59" x="538.8" touchEnabled="false" source="preload_json.marquee"/>
+	<e:Image id="bgImg2" width="125" anchorOffsetX="0" anchorOffsetY="0" height="125" y="143.59" x="672.85" touchEnabled="false" source="preload_json.marquee"/>
+	<e:Image id="bgImg3" width="125" anchorOffsetX="0" anchorOffsetY="0" height="125" y="143.59" x="807.16" touchEnabled="false" source="preload_json.marquee"/>
+	<e:Image id="bgImg4" width="125" height="125" x="807.16" y="276.92" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.marquee"/>
+	<e:Image id="bgImg5" width="125" height="125" x="807.16" y="409.92" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.marquee"/>
+	<e:Image id="bgImg6" width="125" height="125" x="807.16" y="543.59" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.marquee"/>
+	<e:Image id="bgImg7" width="125" height="125" x="673.17" y="543.59" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.marquee"/>
+	<e:Image id="bgImg8" width="125" height="125" x="538.5" y="543.59" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.marquee"/>
+	<e:Image id="bgImg9" width="125" height="125" x="404.16" y="543.59" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.marquee"/>
+	<e:Image id="bgImg10" width="125" height="125" x="404.16" y="410.59" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.marquee"/>
+	<e:Image id="bgImg11" width="125" height="125" x="404.16" y="276.93" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.marquee"/>
+	<e:Image id="Img0" width="95" anchorOffsetX="0" anchorOffsetY="0" height="95" y="158.59" x="420.16" touchEnabled="false" source=""/>
+	<e:Image id="Img1" width="95" anchorOffsetX="0" anchorOffsetY="0" height="95" y="158.59" x="554.67" source="" touchEnabled="false"/>
+	<e:Image id="Img2" width="95" anchorOffsetX="0" anchorOffsetY="0" height="95" y="158.59" x="689" source="" touchEnabled="false"/>
+	<e:Image id="Img3" width="95" anchorOffsetX="0" anchorOffsetY="0" height="95" y="158.59" x="823.16" source="" touchEnabled="false"/>
+	<e:Image id="Img4" width="95" height="95" x="823.16" y="291.58" anchorOffsetX="0" anchorOffsetY="0" source="" touchEnabled="false"/>
+	<e:Image id="Img5" width="95" height="95" x="823.16" y="425.25" anchorOffsetX="0" anchorOffsetY="0" source="" touchEnabled="false"/>
+	<e:Image id="Img6" width="95" height="95" x="823.16" y="558.59" anchorOffsetX="0" anchorOffsetY="0" source="" touchEnabled="false"/>
+	<e:Image id="Img7" width="95" height="95" x="688.17" y="558.59" anchorOffsetX="0" anchorOffsetY="0" source="" touchEnabled="false"/>
+	<e:Image id="Img8" width="95" height="95" x="553.5" y="558.59" anchorOffsetX="0" anchorOffsetY="0" source="" touchEnabled="false"/>
+	<e:Image id="Img9" width="95" height="95" x="419.16" y="558.59" anchorOffsetX="0" anchorOffsetY="0" source="" touchEnabled="false"/>
+	<e:Image id="Img10" width="95" height="95" x="419.16" y="424.92" anchorOffsetX="0" anchorOffsetY="0" source="" touchEnabled="false"/>
+	<e:Image id="Img11" width="95" height="95" x="419.16" y="291.92" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source=""/>
+	<e:Image id="bgshowImg" width="260" height="260" x="538.5" y="273.92" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.marquee" scale9Grid="40,35,37,36"/>	
+	<e:Image id="showImg" width="233" height="233" x="553.34" y="285.59" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="marquee_question_png"/>
+	<e:Image id="start" width="127.58" height="54.85" x="612.22" y="697.07" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="1,0,62,28" scaleX="0.92" source="preload_json.btn_start"/>
+	<e:Image x="24.33" y="276.68" anchorOffsetX="0" width="214.67" scale9Grid="71,37,8,36" source="preload_json.left_down"/>
+	<e:Label id="label1" text="This is a pig." x="45.65" y="292.87" size="28" fontFamily="Comic Sans MS" touchEnabled="false" textColor="0x000000" anchorOffsetY="0" height="69.33" anchorOffsetX="0" width="205.67" verticalAlign="middle"/>
+	<e:Image source="betty_png" x="-5.65" y="395.99" anchorOffsetX="0" width="214.67" anchorOffsetY="0" height="368"/>
+</e:Skin>

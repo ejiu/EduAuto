@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChangeWordSingleLetterSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="roombg" width="1024" height="768" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" scale9Grid="62,52,11,22" touchEnabled="false" source="bg7_jpg"/>
+	<e:Image id="tbCheck" width="88" height="42" x="820.84" y="12" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="preload_json.btn_answer"/>
+	<e:Image id="tbReset" width="88" height="42" x="722.2" y="12" anchorOffsetX="0" anchorOffsetY="0" source="preload_json.btn_reset"/>
+	<e:Image x="166.18" y="249" anchorOffsetX="0" width="113" anchorOffsetY="0" height="121" source="preload_json.singleLetterBG"/>
+	<e:Image x="326" y="249" anchorOffsetX="0" width="113" anchorOffsetY="0" height="121" source="preload_json.singleLetterBG"/>
+	<e:Image x="485.69" y="249" anchorOffsetX="0" width="113" anchorOffsetY="0" height="121" source="preload_json.singleLetterBG"/>
+	<e:Label text="l  y" x="501.5" y="465.75" verticalAlign="top" textAlign="left" anchorOffsetX="0" width="141.56" anchorOffsetY="0" height="94.67" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" textColor="0x000000" size="50" multiline="true" lineSpacing="12"/>
+	<e:Image source="preload_json.dotline" x="369" y="425" width="113" height="121"/>
+	<e:Label id="word0" text="b" x="224" y="308" verticalAlign="middle" textAlign="center" anchorOffsetX="56" width="112" anchorOffsetY="60" height="120" touchEnabled="true" wordWrap="true" fontFamily="Comic Sans MS" size="50" multiline="true" lineSpacing="24" name="0" textColor="0x000000"/>
+	<e:Label id="word1" text="f" x="385" y="308" verticalAlign="middle" textAlign="center" anchorOffsetX="56" width="112" anchorOffsetY="60" height="120" touchEnabled="true" wordWrap="true" fontFamily="Comic Sans MS" size="50" multiline="true" lineSpacing="24" name="1" textColor="0x000000"/>
+	<e:Label id="word2" text="y" x="544" y="308" verticalAlign="middle" textAlign="center" anchorOffsetX="56" width="112" anchorOffsetY="60" height="120" touchEnabled="true" wordWrap="true" fontFamily="Comic Sans MS" size="50" multiline="true" lineSpacing="24" name="2" textColor="0x000000"/>
+	<e:Label id="endword" text="f" x="425" y="485.75" verticalAlign="middle" textAlign="center" anchorOffsetX="56" width="112" anchorOffsetY="60" height="120" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" textColor="0x000000" size="50" multiline="true" lineSpacing="24" name="2"/>
+	<e:Image source="people_png" x="661.34" y="80.62" anchorOffsetX="0" width="330.67" anchorOffsetY="0" height="330.67"/>
+</e:Skin>

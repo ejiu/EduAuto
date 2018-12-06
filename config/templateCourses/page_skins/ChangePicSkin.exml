@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChangePicSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16096b8f351"/>
+	<e:Image x="0" y="0" source="bg7_jpg"/>
+	<e:Image source="preload_json.dotline" x="354.98" y="131.64" anchorOffsetX="0" width="321.14" anchorOffsetY="0" height="326.67" scale9Grid="16,13,89,94"/>	
+	<e:Image id="img_end" x="406.69" y="190.63" anchorOffsetX="0" width="220" anchorOffsetY="0" height="220" source=""/>	
+	<e:Group x="0" y="0" anchorOffsetX="0" width="0" anchorOffsetY="0" height="0">
+		<e:Image id="img0" x="125.99" y="498.66" anchorOffsetX="0" width="220" anchorOffsetY="0" height="220" name="img0" source="post_item_35_png"/>
+		<e:Image id="img0_orgin" x="125.99" y="498.66" anchorOffsetX="0" width="220" anchorOffsetY="0" height="220" name="img0" source=""/>
+		<e:Image id="img1" x="406" y="498.66" anchorOffsetX="0" width="220" anchorOffsetY="0" height="220" name="img1" source="post_item_36_png"/>
+		<e:Image id="img1_orgin" x="406" y="498.66" anchorOffsetX="0" width="220" anchorOffsetY="0" height="220" name="img1" source=""/>
+		<e:Image id="img2" x="689.36" y="498.66" anchorOffsetX="0" width="220" anchorOffsetY="0" height="220" name="img2" source="post_item_37_png"/>
+		<e:Image id="img2_orgin" x="689.36" y="498.66" anchorOffsetX="0" width="220" anchorOffsetY="0" height="220" name="img2" source=""/>
+	</e:Group>
+	<e:Label text="horse" x="409" y="133.08" touchEnabled="false" anchorOffsetX="0" width="216.91" anchorOffsetY="0" height="58.72" fontFamily="Comic Sans MS" size="38" textAlign="center" verticalAlign="middle" textColor="0x0064C6"/>		
+</e:Skin>

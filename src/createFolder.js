@@ -2,7 +2,8 @@
 
 //npm module
 const fs = require('fs');
-const path = require("path");
+const path = require('path');
+const child = require('child_process');
 
 //复制文件
 let copyFile = function(srcPath, tarPath, callback) {
@@ -68,6 +69,7 @@ let copyContent = function(srcDir, tarDir, callback){
 }
 
 //创建目录
+//params: 基础项目地址, 目标项目地址, 目标课程名称, 自动覆盖, 回调函数
 let createDir = function(srcDir, tarDir, coursesName, autoCover = false, callback) {
     tarDir = path.join(tarDir, coursesName);
     

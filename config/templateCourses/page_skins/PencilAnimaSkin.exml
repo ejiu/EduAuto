@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PencilAnimaSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="pencilAni">
+			<tween:TweenItem target="{pencil}">
+				<tween:Set/>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{352.68}" y="{167}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{405.68}" y="{162}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object y="{121}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{376}" y="{167}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{372.04}" y="{239}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{431.04}" y="{157}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object y="{234.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{439}" y="{179}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{475.04}" y="{161}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="50">
+					<tween:props>
+						<e:Object x="{475.65}" y="{182.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{504.98}" y="{155}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object y="{224.53}" x="{509.98}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{550.98}" y="{218}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{549.78}" y="{157}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{550.78}" y="{232}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{595.98}" y="{160}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{595.78}" y="{229.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{597.78}" y="{131.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:Wait duration="50"/>
+				<tween:Set/>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{636.2}" y="{157.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{687.48}" y="{158.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{655.78}" y="{131}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="100">
+					<tween:props>
+						<e:Object x="{656.78}" y="{230.53}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="150">
+					<tween:props>
+						<e:Object x="{719.22}" y="{224.54}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image x="0" y="0"  width="1024" height="768" source="bg7_jpg"/>
+	<e:Image width="391.3" height="181.07" x="330" y="184" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"
+	         scaleX="1" scale9Grid="27,22,10,8" source="preload_json.blue_frame" />
+	<e:Image width="483.67" height="167.88" x="0" y="604.12" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" scaleX="1" scale9Grid="27,22,10,8" source="fruit_png"/>
+	<e:Label id="word" text="f" x="327" y="188" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="120"
+	         anchorOffsetY="0" height="160" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" size="150"
+	         textColor="0xa5a5a5" />
+	<e:Label id="word1" text="r" x="395.68" y="188" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="120"
+	         anchorOffsetY="0" height="160" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" size="150"
+	         textColor="0xA5A5A5" />
+	<e:Label id="word2" text="u" x="471.04" y="188" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="120"
+	         anchorOffsetY="0" height="160" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" size="150"
+	         textColor="0xA5A5A5" />
+	<e:Label id="word3" text="i" x="540.78" y="188" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="120"
+	         anchorOffsetY="0" height="160" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" size="150"
+	         textColor="0xA5A5A5" />
+	<e:Label id="word4" text="t" x="600.78" y="188" verticalAlign="middle" textAlign="center" anchorOffsetX="0" width="120" anchorOffsetY="0" height="160" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" size="150" textColor="0xA5A5A5"/>
+	<e:Image id="pencil" width="100" height="100" x="716.68" y="222.5" anchorOffsetX="0" anchorOffsetY="0"
+	         touchEnabled="true" scaleX="1"  source="preload_json.pen"/>
+	<e:Group x="587.98" y="390">
+		<e:Image x="13" y="3.92" anchorOffsetX="0" width="276.82" anchorOffsetY="0" height="125.24"
+		          source="preload_json.left_down" scale9Grid="67,20,19,58"/>
+		<e:Label id="label1" text="What’s your favourite fruit?" x="47.95" y="-3.4" verticalAlign="middle"
+		         textAlign="left" anchorOffsetX="-0.27" width="266.03" anchorOffsetY="-1.32" height="105.27"
+		         touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" textColor="0x000000" size="28"
+		         lineSpacing="12" />
+	</e:Group>
+	<e:Group id="group1" width="81.34" height="69.34" x="704.81" y="751.33" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

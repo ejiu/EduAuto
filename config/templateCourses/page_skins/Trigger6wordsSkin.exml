@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="Trigger6wordsSkin">
+	<e:Image id="stageBG" x="0" y="0" width="1024" height="768" source="bg7_jpg"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Image source="preload_json.poke" x="97" y="349.31" rotation="270" anchorOffsetX="0" width="169.79" anchorOffsetY="0" height="237.07" scaleX="1" scaleY="1"/>
+	<e:Image source="preload_json.poke" x="389" y="349.31" rotation="270" anchorOffsetX="0" width="169.79" anchorOffsetY="0" height="237.07" scaleX="1" scaleY="1"/>
+	<e:Image source="preload_json.poke" x="681" y="349.31" rotation="270" anchorOffsetX="0" width="169.79" anchorOffsetY="0" height="237.07" scaleX="1" scaleY="1"/>
+	<e:Image source="preload_json.poke" x="97" y="572.63" rotation="270" anchorOffsetX="0" width="169.79" anchorOffsetY="0" height="237.07" scaleX="1" scaleY="1"/>
+	<e:Image source="preload_json.poke" x="389" y="572.63" rotation="270" anchorOffsetX="0" width="169.79" anchorOffsetY="0" height="237.07" scaleX="1" scaleY="1"/>
+	<e:Image source="preload_json.poke" x="681" y="572.63" rotation="270" anchorOffsetX="0" width="169.79" anchorOffsetY="0" height="237.07" scaleX="1" scaleY="1"/>
+	<e:Label id="label1" fontFamily="Comic Sans MS" text="away" anchorOffsetX="0" width="230" anchorOffsetY="0" height="158" size="42" touchEnabled="false" lineSpacing="6" textAlign="center" y="186" x="100" verticalAlign="middle" textColor="0x000000"/>
+	<e:Label id="label2" fontFamily="Comic Sans MS" text="how" anchorOffsetX="0" width="230" anchorOffsetY="0" height="158" size="42" touchEnabled="false" lineSpacing="6" textAlign="center" y="186" x="392" verticalAlign="middle" textColor="0x000000"/>
+	<e:Label id="label3" fontFamily="Comic Sans MS" text="right" anchorOffsetX="0" width="230" anchorOffsetY="0" height="158" size="42" touchEnabled="false" lineSpacing="6" textAlign="center" y="186" x="684" verticalAlign="middle" textColor="0x000000"/>
+	<e:Label id="label4" fontFamily="Comic Sans MS" text="today" anchorOffsetX="0" width="230" anchorOffsetY="0" height="158" size="42" touchEnabled="false" lineSpacing="6" textAlign="center" y="408.33" x="100" verticalAlign="middle" textColor="0x000000"/>
+	<e:Label id="label5" fontFamily="Comic Sans MS" text="where" anchorOffsetX="0" width="230" anchorOffsetY="0" height="158" size="42" touchEnabled="false" lineSpacing="6" textAlign="center" y="408.33" x="392" verticalAlign="middle" textColor="0x000000"/>
+	<e:Label id="label6" fontFamily="Comic Sans MS" text="get" anchorOffsetX="0" width="230" anchorOffsetY="0" height="158" size="42" touchEnabled="false" lineSpacing="6" textAlign="center" y="408.33" x="684" verticalAlign="middle" textColor="0x000000"/>
+	<e:Component id="effect0" width="60" height="40" x="214.54" y="277.32" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Component width="60" height="40" x="506.02" y="277.32" id="effect1" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Component width="60" height="40" x="798.36" y="274.65" id="effect2" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Component width="60" height="40" x="214.54" y="489.7" id="effect3" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Component width="60" height="40" x="509.04" y="489.7" id="effect4" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Component width="60" height="40" x="798.36" y="489.7" id="effect5" anchorOffsetX="0" anchorOffsetY="0"/>
+
+
+</e:Skin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SlotsSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Image width="1024" height="768" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="bg7_jpg"/>
+	<e:Image width="949" height="429.09" x="31" y="141.72" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="slots_bg_png"/>
+	<e:Image x="153.27" y="606.86" anchorOffsetX="0" width="256.38" anchorOffsetY="0" height="149.33" rotation="360" source="preload_json.talk_left" scale9Grid="50,18,42,17"/>
+	<e:Label text="I like … \nCan I have a …,\nPlease?" x="197.27" y="606.86" anchorOffsetX="0" width="255" anchorOffsetY="0" height="147" textColor="0x000000" fontFamily="Comic Sans MS" size="28" lineSpacing="12" textAlign="left" verticalAlign="middle"/>			
+	<e:Group id="groupEnd" width="901" height="281" x="59" y="192" anchorOffsetX="0" anchorOffsetY="0" scrollEnabled="true">
+		<e:Image id="Img0_bg" width="282" anchorOffsetX="0" anchorOffsetY="0" height="282" y="-4" x="12" scaleY="1" scaleX="1" touchEnabled="false" source="slots_png"/>
+		<e:Image id="Img1_bg" width="282" anchorOffsetX="0" anchorOffsetY="0" height="282" y="290" x="12" scaleY="1" scaleX="1" touchEnabled="false" source="slots_png"/>
+		<e:Image id="Img0" width="222" anchorOffsetX="155.16" anchorOffsetY="0" height="222" y="26" x="197.16" scaleY="1" scaleX="1" touchEnabled="false" source=""/>
+		<e:Image id="Img1" width="222" anchorOffsetX="155.16" anchorOffsetY="-1.19" height="222" y="324" x="197.16" scaleY="1" scaleX="1" touchEnabled="false" source=""/>
+		<e:Image id="Img0_bg0" width="282" anchorOffsetX="0" anchorOffsetY="0" height="282" y="-4" x="304" scaleY="1" scaleX="1" touchEnabled="false" source="slots_png"/>
+		<e:Image id="Img1_bg0" width="282" anchorOffsetX="0" anchorOffsetY="0" height="282" y="290" x="304" scaleY="1" scaleX="1" touchEnabled="false" source="slots_png"/>
+		<e:Image id="Img2" width="222" anchorOffsetX="155.16" anchorOffsetY="0" height="222" y="26" x="490.16" scaleY="1" scaleX="1" touchEnabled="false" source=""/>
+		<e:Image id="Img3" width="222" anchorOffsetX="155.16" anchorOffsetY="0" height="222" y="324" x="490.16" scaleY="1" scaleX="1" touchEnabled="false" source=""/>
+		<e:Image id="Img0_bg1" width="282" anchorOffsetX="0" anchorOffsetY="0" height="282" y="-4" x="601" scaleY="1" scaleX="1" touchEnabled="false" source="slots_png"/>
+		<e:Image id="Img1_bg1" width="282" anchorOffsetX="0" anchorOffsetY="0" height="282" y="290" x="601" scaleY="1" scaleX="1" touchEnabled="false" source="slots_png"/>
+		<e:Image id="Img4" width="222" anchorOffsetX="155.52" anchorOffsetY="0" height="222" y="26" x="789.22" scaleY="1" scaleX="1" touchEnabled="false" source=""/>
+		<e:Image id="Img5" width="222" anchorOffsetX="155.52" anchorOffsetY="0" height="222" y="324" x="789.22" scaleY="1" scaleX="1" touchEnabled="false" source=""/>
+	</e:Group>
+	<e:Image id="start" width="116.97" height="54.85" x="442.84" y="499.17" anchorOffsetX="0" anchorOffsetY="0" source="preload_json.btn_start"/>
+</e:Skin>

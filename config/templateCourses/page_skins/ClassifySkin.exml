@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClassifySkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1024" height="768" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="bg7_jpg"/>
+	<e:Image x="21.28" y="364" anchorOffsetX="0" width="228.43" anchorOffsetY="0" height="118.66" rotation="360" scale9Grid="66,20,21,65" source="preload_json.left_down"/>
+	<e:Label id="label0" text="Big letter N!" x="37.33" y="319.49" anchorOffsetX="0" width="255" anchorOffsetY="0" height="181" textColor="0x000000" fontFamily="Comic Sans MS" size="32" lineSpacing="12" textAlign="left" verticalAlign="middle"/>	
+	<e:Image x="304" y="133" anchorOffsetX="0" width="150" anchorOffsetY="0" height="150" source="preload_json.poke" scale9Grid="32,45,196,273"/>
+	<e:Image x="466" y="133" anchorOffsetX="0" width="150" anchorOffsetY="0" height="150" source="preload_json.poke" scale9Grid="32,45,196,273"/>
+	<e:Image x="632" y="133" anchorOffsetX="0" width="150" anchorOffsetY="0" height="150" source="preload_json.poke" scale9Grid="32,45,196,273"/>
+	<e:Image x="801" y="133" anchorOffsetX="0" width="150" anchorOffsetY="0" height="150" source="preload_json.poke" scale9Grid="32,45,196,273"/>
+	<e:Image x="304" y="301" anchorOffsetX="0" width="150" anchorOffsetY="0" height="150" source="preload_json.poke" scale9Grid="32,45,196,273"/>
+	<e:Image x="466" y="301" anchorOffsetX="0" width="150" anchorOffsetY="0" height="150" source="preload_json.poke" scale9Grid="32,45,196,273"/>
+	<e:Image x="632" y="301" anchorOffsetX="0" width="150" anchorOffsetY="0" height="150" source="preload_json.poke" scale9Grid="32,45,196,273"/>
+	<e:Image x="801" y="301" anchorOffsetX="0" width="150" anchorOffsetY="0" height="150" source="preload_json.poke" scale9Grid="32,45,196,273"/>
+	<e:Image id="tbReset" width="88" height="42" x="821" y="12" anchorOffsetX="0" anchorOffsetY="0" source="preload_json.btn_reset"/>
+	<e:Image id="item_8" width="150" height="150" x="91.67" y="100.32" anchorOffsetX="75" anchorOffsetY="75" name="item_0" touchEnabled="false" scaleX="-1" source=""/>
+	<e:Image id="item_9" width="150" height="150" x="91.67" y="100.32" anchorOffsetX="75" anchorOffsetY="75" name="item_1" touchEnabled="false" source=""/>
+	<e:Image id="item_10" width="150" height="150" x="91.67" y="100.32" anchorOffsetX="75" anchorOffsetY="75" name="item_2" touchEnabled="false" scaleX="-1" source=""/>
+	<e:Image id="item_11" width="150" height="150" x="91.67" y="100.32" anchorOffsetX="75" anchorOffsetY="75" name="item_3" touchEnabled="false" source=""/>
+	<e:Image id="item_12" width="150" height="150" x="91.67" y="100.32" anchorOffsetX="75" anchorOffsetY="75" name="item_4" touchEnabled="false" source=""/>
+	<e:Image id="item_13" width="150" height="150" x="91.67" y="100.32" anchorOffsetX="75" anchorOffsetY="75" name="item_5" touchEnabled="false" source=""/>
+	<e:Image id="item_14" width="150" height="150" x="91.67" y="100.32" anchorOffsetX="75" anchorOffsetY="75" name="item_6" touchEnabled="false" source=""/>
+	<e:Image id="item_15" width="150" height="150" x="91.67" y="100.32" anchorOffsetX="75" anchorOffsetY="75" name="item_7" touchEnabled="false" source=""/>
+	<e:Image id="item_0" width="120" height="120" x="377.5" y="207" anchorOffsetX="60" anchorOffsetY="60" name="0" scaleX="1" touchEnabled="false" source=""/>
+	<e:Image id="item_1" width="120" height="120" x="539.5" y="207" anchorOffsetX="60" anchorOffsetY="60" name="1" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="item_2" width="120" height="120" x="706.5" y="207" anchorOffsetX="60" anchorOffsetY="60" name="2" scaleX="1" touchEnabled="false" source=""/>
+	<e:Image id="item_3" width="120" height="120" x="876.5" y="207" anchorOffsetX="60" anchorOffsetY="60" name="3" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="item_4" width="120" height="120" x="377.5" y="374" anchorOffsetX="60" anchorOffsetY="60" name="4" scaleX="1" touchEnabled="false" source=""/>
+	<e:Image id="item_5" width="120" height="120" x="544" y="376" anchorOffsetX="60" anchorOffsetY="60" name="5" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="item_6" width="120" height="120" x="706.5" y="376" anchorOffsetX="60" anchorOffsetY="60" name="6" scaleX="1" touchEnabled="false" source=""/>
+	<e:Image id="item_7" width="120" height="120" x="876.5" y="376" anchorOffsetX="60" anchorOffsetY="60" name="7" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="resultImg_0" width="356" height="230" x="419.09" y="634" anchorOffsetX="178" anchorOffsetY="115" name="2" scaleX="1" touchEnabled="false" source="preload_json.dotline" scale9Grid="15,14,89,90"/>
+	<e:Image id="resultImg_1" width="356" height="230" x="812.16" y="634" anchorOffsetX="178" anchorOffsetY="115" name="3" touchEnabled="false" source="preload_json.dotline" scale9Grid="14,14,88,90"/>
+	<e:Component id="resultPos_0" width="1" height="1" x="346" y="585"/>
+	<e:Component id="resultPos_1" width="1" height="1" x="490" y="585"/>
+	<e:Component width="1" height="1" x="346" y="692" id="resultPos_2"/>
+	<e:Component width="1" height="1" x="490" y="692" id="resultPos_3"/>
+	<e:Component width="1" height="1" x="734" y="585" id="resultPos_4"/>
+	<e:Component width="1" height="1" x="886" y="585" id="resultPos_5"/>
+	<e:Component width="1" height="0" x="734" y="692" id="resultPos_6"/>
+	<e:Component width="1" height="0" x="886" y="692" id="resultPos_7"/>
+	<e:Image source="uu_k_png" x="24.34" y="483.14" anchorOffsetX="0" width="150.85" anchorOffsetY="0" height="275.85"/>
+	<e:Image source="post_item_107_png" x="677.18" y="592" anchorOffsetX="0" width="269.96" anchorOffsetY="0" height="84"/>
+	<e:Image source="post_item_108_png" x="252.93" y="586.73" anchorOffsetX="0" width="332.33" anchorOffsetY="0" height="94.53"/>
+</e:Skin>

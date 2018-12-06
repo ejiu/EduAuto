@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OpenCalendarSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+	</w:Declarations>
+	<e:Image width="1024" anchorOffsetX="0" anchorOffsetY="0" height="768" y="0" x="0" touchEnabled="false" source="bg7_jpg"/>
+	<e:Label text="wants an apple." x="218.09" y="502.33" touchEnabled="false" textColor="0x000000" anchorOffsetX="0" width="876" anchorOffsetY="0" height="80" fontFamily="Comic Sans MS" size="48" textAlign="center" verticalAlign="middle"/>
+	<e:Image width="314" anchorOffsetX="0" anchorOffsetY="0" height="314" y="85.66" x="596.67" scaleY="1" touchEnabled="false" source="dog_png"/>
+	<e:Image id="ImgBg" width="250" anchorOffsetX="0" anchorOffsetY="0" height="250" y="422" x="211.65" scaleY="1" source="calendar_bg_png" touchEnabled="true"/>
+	<e:Image id="Img" width="200" anchorOffsetX="100" anchorOffsetY="0" height="200" y="458" x="335" scaleY="1" source="" touchEnabled="false"/>
+	<e:Image id="ImgFront" width="250" anchorOffsetX="0" anchorOffsetY="0" height="250" y="422" x="211" scaleY="1" touchEnabled="false" scaleX="1" source="calendar2_bg_png"/>
+	<e:Image id="ImgFront0" width="250" anchorOffsetX="0" anchorOffsetY="0" height="50" y="403" x="211.65" scaleY="1" touchEnabled="false" scaleX="1" source="calendar3_bg_png"/>
+</e:Skin>

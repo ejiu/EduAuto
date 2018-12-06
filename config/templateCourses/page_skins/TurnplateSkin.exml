@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TurnplateSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1024" height="768" x="0" y="0" touchEnabled="false" source="bg7_jpg"/>
+	<e:Image width="298.79" height="207.88" x="484.05" y="560.64" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="turnplate_base_png"/>
+	<e:Group id="turnplate" width="1" height="1" x="633.95" y="428.32" anchorOffsetX="300" anchorOffsetY="300">
+		<e:Image width="600" height="600" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="turnplate_png" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Image id="turnplate0" width="175" height="175" x="213.71" y="32.69" anchorOffsetX="0" anchorOffsetY="0" visible="true" scaleX="1" scaleY="1" touchEnabled="false" source=""/>
+		<e:Image id="turnplate1" width="160" height="160" x="469.57000000000005" y="101.92" anchorOffsetX="0" anchorOffsetY="0" visible="true" scaleX="1" scaleY="1" touchEnabled="false" rotation="60" source=""/>
+		<e:Image id="turnplate2" width="160" height="160" x="555.36" y="351.18" anchorOffsetX="0" anchorOffsetY="0" visible="true" scaleX="1" scaleY="1" touchEnabled="false" rotation="120" source=""/>
+		<e:Image id="turnplate3" width="160" height="160" x="383.65" y="545.74" anchorOffsetX="0" anchorOffsetY="0" visible="true" scaleX="1" scaleY="1" touchEnabled="false" rotation="180" source=""/>
+		<e:Image id="turnplate4" width="160" height="160" x="126.76" y="496.99" anchorOffsetX="0" anchorOffsetY="0" visible="true" scaleX="1" scaleY="1" touchEnabled="false" rotation="240" source=""/>
+		<e:Image id="turnplate5" width="160" height="160" x="45.12" y="246" anchorOffsetX="0" anchorOffsetY="0" visible="true" scaleX="1" scaleY="1" touchEnabled="false" rotation="300" source=""/>
+	</e:Group>
+	<e:Image width="67" height="120" x="599.94" y="338.87" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.arrow"/>
+	<e:Image id="start" width="116.97" height="54.85" x="876.03" y="688.32" anchorOffsetX="0" anchorOffsetY="0" source="preload_json.btn_start"/>
+	<e:Image id="showImg" width="255" height="255" x="505.16" y="119.41" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source=""/>
+	<e:Image source="preload_json.right_down" x="41.66" y="294.7" anchorOffsetX="0" width="233.33" scale9Grid="24,37,13,36"/>
+	<e:Label text="I like …\nI don’t like …" x="72.32" y="313.53" size="28" fontFamily="Comic Sans MS" touchEnabled="false" textColor="0x000000" anchorOffsetY="0" height="70.67" anchorOffsetX="0" width="188.67"/>
+	<e:Image source="betty_png" x="35.31" y="430.85" anchorOffsetX="0" width="192.68" anchorOffsetY="0" height="330.3"/>
+</e:Skin>

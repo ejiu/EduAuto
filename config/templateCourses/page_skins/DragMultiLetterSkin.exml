@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DragMultiLetterSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1024" height="768" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="bg7_jpg"/>
+	<e:Image x="123.5" y="186" anchorOffsetX="0" width="113" anchorOffsetY="0" height="121" source="preload_json.singleLetterBG"/>
+	<e:Image x="341" y="186" anchorOffsetX="0" width="113" anchorOffsetY="0" height="121" source="preload_json.singleLetterBG"/>
+	<e:Image x="558" y="186" anchorOffsetX="0" width="113" anchorOffsetY="0" height="121" source="preload_json.singleLetterBG"/>
+	<e:Image x="775.2" y="186" anchorOffsetX="0" width="113" anchorOffsetY="0" height="121" source="preload_json.singleLetterBG"/>
+	<e:Image id="tbCheck" width="88" height="42" x="820.84" y="12" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="preload_json.btn_answer"/>
+	<e:Image id="tbReset" width="88" height="42" x="722.2" y="12" anchorOffsetX="0" anchorOffsetY="0" source="preload_json.btn_reset"/>
+	<e:Label text="__ear" x="231" y="640" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="205" anchorOffsetY="0" height="76" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" textColor="0x000000" size="50" multiline="true" lineSpacing="24"/>
+	<e:Label text="__anana" x="638" y="640" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="205" anchorOffsetY="0" height="76" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" textColor="0x000000" size="50" multiline="true" lineSpacing="24"/>
+	<e:Label id="resultPos_0" text="" x="267" y="675" verticalAlign="middle" textAlign="center" anchorOffsetX="56" width="112" anchorOffsetY="60" height="120" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" textColor="0x000000" size="32" multiline="true" lineSpacing="24" name="0"/>
+	<e:Label id="resultPos_1" text="" x="675.91" y="675" verticalAlign="middle" textAlign="left" anchorOffsetX="56" width="112" anchorOffsetY="60" height="120" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" textColor="0x000000" size="32" multiline="true" lineSpacing="24" name="1"/>
+	<e:Label id="word0" text="p" x="181.5" y="246.5" verticalAlign="middle" textAlign="center" anchorOffsetX="56" width="112" anchorOffsetY="60" touchEnabled="true" wordWrap="true" fontFamily="Comic Sans MS" size="50" multiline="true" lineSpacing="24" name="0" textColor="0x000000" height="120"/>
+	<e:Label id="word1" text="s" x="399" y="245" verticalAlign="middle" textAlign="center" anchorOffsetX="56" width="112" anchorOffsetY="60" touchEnabled="true" wordWrap="true" fontFamily="Comic Sans MS" size="50" multiline="true" lineSpacing="24" name="1" textColor="0x000000" height="120"/>
+	<e:Label id="word2" text="z" x="616" y="245" verticalAlign="middle" textAlign="center" anchorOffsetX="56" width="112" anchorOffsetY="60" touchEnabled="true" wordWrap="true" fontFamily="Comic Sans MS" size="50" multiline="true" lineSpacing="24" name="2" textColor="0x000000" height="120"/>
+	<e:Label id="word3" text="b" x="832" y="245" verticalAlign="middle" textAlign="center" anchorOffsetX="56" width="112" anchorOffsetY="60" touchEnabled="true" wordWrap="true" fontFamily="Comic Sans MS" size="50" multiline="true" lineSpacing="24" name="3" textColor="0x000000" height="120"/>
+	<e:Label id="result_word0" text="p" x="319.32" y="643.35" verticalAlign="middle" textAlign="left" anchorOffsetX="35" width="70" anchorOffsetY="35" height="70" touchEnabled="true" wordWrap="true" fontFamily="Comic Sans MS" size="50" multiline="true" lineSpacing="24"  textColor="0xff0000"/>
+	<e:Label id="result_word1" text="b" x="723.98" y="643.35" verticalAlign="middle" textAlign="left" anchorOffsetX="35" width="70" anchorOffsetY="35" height="70" touchEnabled="true" wordWrap="true" fontFamily="Comic Sans MS" size="50" multiline="true" lineSpacing="24" textColor="0xFF0000"/>
+	<e:Image source="item1a_png" x="204.35" y="398.04" anchorOffsetX="0" width="180.17" anchorOffsetY="0" height="243.67"/>
+	<e:Image source="item2a_png" x="561.99" y="361.65" anchorOffsetX="0" width="326.3" anchorOffsetY="0" height="325.67"/>
+</e:Skin>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WordLinkSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1024" height="768" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="bg7_jpg"/>
+	<e:Image id="tbReset" width="82" height="42" x="825" y="12" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="true" source="preload_json.btn_reset"/>
+	<e:Image id="item_0" width="170" height="170" x="178" y="252" anchorOffsetX="85" anchorOffsetY="85" name="0" scaleX="1" touchEnabled="true" source=""/>
+	<e:Image id="item_1" width="170" height="170" x="401" y="252" anchorOffsetX="85" anchorOffsetY="85" name="1" touchEnabled="true" source=""/>
+	<e:Image id="item_2" width="170" height="170" x="624" y="252" anchorOffsetX="85" anchorOffsetY="85" name="2" scaleX="1" touchEnabled="true" source=""/>
+	<e:Image id="item_3" width="170" height="170" x="847" y="252" anchorOffsetX="85" anchorOffsetY="85" name="3" touchEnabled="true" source=""/>
+	<e:Image id="item_4" width="170" height="170" x="178" y="446" anchorOffsetX="85" anchorOffsetY="85" name="4" scaleX="1" touchEnabled="true" source=""/>
+	<e:Image id="item_5" width="170" height="170" x="401" y="446" anchorOffsetX="85" anchorOffsetY="85" name="5" touchEnabled="true" source=""/>
+	<e:Image id="item_6" width="170" height="170" x="624" y="446" anchorOffsetX="85" anchorOffsetY="85" name="6" scaleX="1" touchEnabled="true" source=""/>
+	<e:Image id="item_7" width="170" height="170" x="847" y="446" anchorOffsetX="85" anchorOffsetY="85" name="7" touchEnabled="true" source=""/>
+	<e:Image id="item_8" width="170" height="170" x="936" y="676" anchorOffsetX="85" anchorOffsetY="85" name="8" touchEnabled="true" scaleX="-1" source="train_header_png"/>
+	<e:Image id="item_9" width="170" height="170" x="770" y="683" anchorOffsetX="85" anchorOffsetY="85" name="8" touchEnabled="true" source="train704_png" visible="false"/>
+	<e:Image id="item_10" width="170" height="170" x="598" y="683" anchorOffsetX="85" anchorOffsetY="85" name="8" touchEnabled="true" source="train704_png" visible="false"/>
+	<e:Image id="item_11" width="170" height="170" x="426" y="683" anchorOffsetX="85" anchorOffsetY="85" name="8" touchEnabled="true" source="train704_png" visible="false"/>
+	<e:Image id="item_12" width="170" height="170" x="251" y="683" anchorOffsetX="85" anchorOffsetY="85" name="8" touchEnabled="true" source="train704_png" visible="false"/>
+	<e:Component id="result_0" width="1" height="1" x="770" y="683" touchEnabled="false"/>
+	<e:Component id="result_1" width="1" height="1" x="598" y="683" touchEnabled="false"/>
+	<e:Component id="result_2" width="1" height="1" x="426" y="683" touchEnabled="false"/>
+	<e:Component id="result_3" width="1" height="1" x="251" y="683" touchEnabled="false"/>
+</e:Skin>

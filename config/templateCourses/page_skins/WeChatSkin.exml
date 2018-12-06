@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WeChatSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="talkAni">
+			<tween:TweenItem target="{talk}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="300">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="talkAni2">
+			<tween:TweenItem target="{talk2}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{0}" scaleY="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Image width="1024" height="768" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="wechat_bg_png"/>
+	<e:Group id="group" width="472" height="84" x="162.98" y="184" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="talk" width="1" height="1" x="1" y="136" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image width="363.33" height="105.48" x="-1.69" y="-75.34" anchorOffsetX="0" anchorOffsetY="0" scaleY="0.7" scaleX="1" source="preload_json.talk_left" scale9Grid="68,19,18,17"/>
+			<e:Label text="Where is the bank?" x="56.98" y="-55.4" textColor="0x000000" scaleX="1" scaleY="1" anchorOffsetX="0" width="501.67" anchorOffsetY="0" height="61.33" fontFamily="Comic Sans MS"/>
+		</e:Group>
+		<e:Image width="180" height="180" x="-77.06" y="76.63" anchorOffsetX="93.75" anchorOffsetY="93.75" scaleX="0.7" scaleY="0.7" source="UU_t_png"/>
+	</e:Group>
+	<e:Group id="group2" width="472" height="84" x="364.98" y="330.05" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="talk2" width="1" height="1" x="426.02" y="114.95" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Image width="472.69" height="85.73" x="-470.71" y="-84.95" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="preload_json.talk_right" scale9Grid="37,17,22,16"/>
+			<e:Label id="text2" text="It’s next to the supermarket." x="-458.02" y="-56.07" textColor="0x000000" scaleX="1" scaleY="1" anchorOffsetX="0" width="489.66" fontFamily="Comic Sans MS"/>
+		</e:Group>
+		<e:Image width="180" height="180" x="618.27" y="-1.410000000000025" anchorOffsetX="0" anchorOffsetY="0" scaleX="-0.7" scaleY="0.7" source="betty_t_png"/>
+	</e:Group>
+</e:Skin>

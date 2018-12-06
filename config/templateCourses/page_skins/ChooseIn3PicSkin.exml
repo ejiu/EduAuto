@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChooseIn3PicSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="1024" height="768" x="-1" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="bg7_jpg"/>
+	<e:Image id="tbReset" width="88" height="42" x="821" y="12" anchorOffsetX="0" anchorOffsetY="0" source="preload_json.btn_reset"/>	
+	<e:Image width="91" height="165.62" x="264.43" y="121.68" anchorOffsetX="0" anchorOffsetY="0" name="0" scaleX="1" touchEnabled="false" scale9Grid="47,44,41,30" source="adam_q_png"/>
+	<e:Label text="What do you see?" x="380.71" y="193.68" size="32" fontFamily="Comic Sans MS" touchEnabled="false" textColor="0x000000" anchorOffsetX="0" width="381" anchorOffsetY="0" height="82" lineSpacing="8" scaleX="1" scaleY="1" verticalAlign="middle"/>
+	<e:Image width="91" height="165.62" x="270.43" y="283.68" anchorOffsetX="0" anchorOffsetY="0" name="0" scaleX="1" touchEnabled="false" scale9Grid="47,44,41,30" source="betty_q_png"/>
+	<e:Label text="I see two pandas." x="387" y="325.49" size="32" fontFamily="Comic Sans MS" touchEnabled="false" textColor="0x000000" anchorOffsetX="0" width="381" anchorOffsetY="0" height="82" lineSpacing="8" scaleX="1" scaleY="1" verticalAlign="middle"/>
+	<e:Image id="bg0" width="250" height="250" x="80" y="500" anchorOffsetX="0" anchorOffsetY="0" name="0" scaleX="1" touchEnabled="false" source="preload_json.poke" scale9Grid="36,35,190,293"/>
+	<e:Image id="bg1" width="250" height="250" x="400" y="500" anchorOffsetX="0" anchorOffsetY="0" name="0" scaleX="1" touchEnabled="false" source="preload_json.poke" scale9Grid="36,35,190,293"/>
+	<e:Image id="bg2" width="250" height="250" x="720" y="500" anchorOffsetX="0" anchorOffsetY="0" name="0" scaleX="1" touchEnabled="false" source="preload_json.poke" scale9Grid="36,35,190,293"/>
+	<e:Image id="img0" width="250" height="250" x="80" y="500" anchorOffsetX="0" anchorOffsetY="0" name="0" scaleX="1" touchEnabled="false" scale9Grid="47,44,41,30" source="panda1_png"/>
+	<e:Image id="img1" width="250" height="250" x="400" y="500" anchorOffsetX="0" anchorOffsetY="0" name="1" scaleX="1" touchEnabled="false" scale9Grid="47,44,41,30" source="panda2_png"/>
+	<e:Image id="img2" width="250" height="250" x="720" y="500" anchorOffsetX="0" anchorOffsetY="0" name="2" scaleX="1" touchEnabled="false" scale9Grid="47,44,41,30" source="panda3_png"/>
+	<e:Image id="select" width="80" height="80" x="320" y="500" anchorOffsetX="60" anchorOffsetY="15" scaleX="1" touchEnabled="false" source="select_png"/>
+</e:Skin>

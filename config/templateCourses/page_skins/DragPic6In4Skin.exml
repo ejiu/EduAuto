@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DragPic6In4Skin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image width="100%" height="100%" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="bg7_jpg"/>
+	<e:Image x="37.28" y="378.67" anchorOffsetX="0" width="213.77" anchorOffsetY="0" height="118.66" rotation="360" scale9Grid="65,20,23,65" source="preload_json.left_down"/>
+	<e:Label id="label0" text="Right, /r/!" x="58.33" y="334.16" anchorOffsetX="0" width="255" anchorOffsetY="0" height="181" textColor="0x000000" fontFamily="Comic Sans MS" size="32" lineSpacing="12" textAlign="left" verticalAlign="middle"/>		
+	<e:Image x="447.2" y="221" anchorOffsetX="85" width="170" anchorOffsetY="85" height="170" source="preload_json.poke" scale9Grid="32,45,196,273"/>
+	<e:Image x="648.2" y="221" anchorOffsetX="85" width="170" anchorOffsetY="85" height="170" source="preload_json.poke" scale9Grid="32,45,196,273"/>
+	<e:Image x="848.2" y="221" anchorOffsetX="85" width="170" anchorOffsetY="85" height="170" source="preload_json.poke" scale9Grid="32,45,196,273"/>
+	<e:Image x="448.2" y="421" anchorOffsetX="85" width="170" anchorOffsetY="85" height="170" source="preload_json.poke" scale9Grid="32,45,196,273"/>
+	<e:Image x="648.2" y="421" anchorOffsetX="85" width="170" anchorOffsetY="85" height="170" source="preload_json.poke" scale9Grid="32,45,196,273"/>
+	<e:Image x="848.2" y="421" anchorOffsetX="85" width="170" anchorOffsetY="85" height="170" source="preload_json.poke" scale9Grid="32,45,196,273"/>	
+	<e:Image id="item_8" width="150" height="150" x="107.67" y="122.32" anchorOffsetX="75" anchorOffsetY="75" name="item_0" touchEnabled="false" scaleX="1" source=""/>
+	<e:Image id="item_9" width="150" height="150" x="107.67" y="122.32" anchorOffsetX="75" anchorOffsetY="75" name="item_1" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="item_10" width="150" height="150" x="107.67" y="122.32" anchorOffsetX="75" anchorOffsetY="75" name="item_2" touchEnabled="false" scaleX="1" source=""/>
+	<e:Image id="item_11" width="150" height="150" x="107.67" y="122.32" anchorOffsetX="75" anchorOffsetY="75" name="item_3" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="item_12" width="150" height="150" x="107.67" y="122.32" anchorOffsetX="75" anchorOffsetY="75" name="item_4" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="item_13" width="150" height="150" x="107.67" y="122.32" anchorOffsetX="75" anchorOffsetY="75" name="item_5" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="item_0" width="150" height="150" x="447.2" y="221" anchorOffsetX="75" anchorOffsetY="75" name="0" scaleX="1" touchEnabled="false" source=""/>
+	<e:Image id="item_1" width="150" height="150" x="647.2" y="221" anchorOffsetX="75" anchorOffsetY="75" name="1" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="item_2" width="150" height="150" x="847.2" y="221" anchorOffsetX="75" anchorOffsetY="75" name="2" scaleX="1" touchEnabled="false" source=""/>
+	<e:Image id="item_3" width="150" height="150" x="447.2" y="421" anchorOffsetX="75" anchorOffsetY="75" name="3" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="item_4" width="150" height="150" x="647.2" y="421" anchorOffsetX="75" anchorOffsetY="75" name="4" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="item_5" width="150" height="150" x="847.2" y="421" anchorOffsetX="75" anchorOffsetY="75" name="5" touchEnabled="false" source="" scaleX="1"/>
+	<e:Image id="tbReset" width="88" height="42" x="722.2" y="12" anchorOffsetX="0" anchorOffsetY="0" source="preload_json.btn_reset"/>
+	<e:Image id="tbCheck" width="88" height="42" x="820.84" y="12" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="preload_json.btn_answer"/>
+	<e:Image id="resultPos_0" width="150" height="150" x="320" y="636" anchorOffsetX="75" anchorOffsetY="75" name="0" scaleX="1" touchEnabled="false" source="preload_json.dotline" scale9Grid="20,18,80,84"/>
+	<e:Image id="resultPos_1" width="150" height="150" x="520" y="636" anchorOffsetX="75" anchorOffsetY="75" name="1" scaleX="1" touchEnabled="false" source="preload_json.dotline" scale9Grid="20,18,80,84"/>
+	<e:Image id="resultPos_2" width="150" height="150" x="720" y="636" anchorOffsetX="75" anchorOffsetY="75" name="2" scaleX="1" touchEnabled="false" source="preload_json.dotline" scale9Grid="20,18,80,84"/>
+	<e:Image id="resultPos_3" width="150" height="150" x="920" y="636" anchorOffsetX="75" anchorOffsetY="75" name="3" scaleX="1" touchEnabled="false" source="preload_json.dotline" scale9Grid="20,18,80,84"/>
+	<e:Image source="betty_k_png" x="0" y="496" anchorOffsetX="0" width="184.93" anchorOffsetY="0" height="269.85"/>
+</e:Skin>
