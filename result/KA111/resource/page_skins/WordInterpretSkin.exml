@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="WordInterpretSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image x="169.21" y="216.44" scaleX="1" scaleY="1" anchorOffsetX="0" width="683.64" anchorOffsetY="0" height="456.73" source="draw_card_bg_png"/>
-	<e:Image id="f_Img" x="250.53" y="271.14" scaleX="1" scaleY="1" anchorOffsetX="0" width="521" anchorOffsetY="0" height="347.33" source=""/>
-	<e:Image id="close" width="57.87" height="56.06" x="769.11" y="244.19" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.btn_close"/>
-</e:Skin>
