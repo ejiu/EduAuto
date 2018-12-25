@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="PlaySoundSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image width="1024" height="768" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="bg1_png"/>
-	<e:Image id="soundBg" width="185" height="88" x="40.58" y="649.31" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="preload_json.sound_bg"/>
-	<e:Image id="start" width="80" height="80" x="91.91" y="652.14" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="true" source="preload_json.sound_play"/>
-	<e:Image id="pause" width="80" height="80" x="44.44" y="649.31" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="true" source="preload_json.sound_pause"/>
-	<e:Image id="replay" width="80" height="80" x="139.9" y="649.99" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="true" source="preload_json.sound_replay"/>
-	<e:Label text="Hello\nHello, hello, how are you?\nHello, hello, how are you?\nHello, hello, how are you?\nHow are you today?\nI am fine. I am great.\nI am fine. I am just great.\nI am fine. I am great.\nI am very well today.\nGreat!" x="368.99" y="82.16" anchorOffsetX="0" width="517.67" anchorOffsetY="0" height="626.33" fontFamily="Comic Sans MS" size="32" lineSpacing="20" textAlign="center" verticalAlign="middle" textColor="0xffffff"/>
-</e:Skin>

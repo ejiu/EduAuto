@@ -140,7 +140,6 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected createGameScene(): void {
-        mouse.enable(this.stage);
         this.stage.frameRate = 30;
         callbackInResLoaded(PageMgr.all_page);
         progressNumIn(100);

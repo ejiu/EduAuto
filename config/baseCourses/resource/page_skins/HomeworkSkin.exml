@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="HomeworkSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui"
         xmlns:w="http://ns.egret.com/wing">
-	<e:Image x="0"  source="bg_02_jpg"/>
-	<e:Image source="uu_q_png" x="25.78" y="469.32" anchorOffsetX="0" width="158.23" anchorOffsetY="0" height="289.33"/>
-	<e:Image source="post_item_1_png" x="470.97" y="200.49" anchorOffsetX="0" width="500.82" anchorOffsetY="0" height="485.94"/>
-	<e:Image source="preload_json.right_down" x="63.64" y="341" anchorOffsetX="0" width="381.76" anchorOffsetY="0" height="158.88" scale9Grid="74,37,13,23"/>
-	<e:Label text="Please draw a birthday\ncard for your parents. " x="94.75" y="346.63" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="388.19" anchorOffsetY="0" height="129.57" touchEnabled="false" wordWrap="true" fontFamily="Muli" textColor="0x000000" size="30" lineSpacing="20"/>
-	<e:Label text="e.g." x="532.19" y="133.02" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="147.28" anchorOffsetY="0" height="59.87" touchEnabled="false" wordWrap="true" fontFamily="Muli" textColor="0x000000" size="30" lineSpacing="20"/>
+	<e:Image x="0"  source="bg_1_jpg" width="1024" height="768"/>
 </e:Skin>

@@ -11,13 +11,13 @@ const coursesName = sheets[0]['data'][0][0];        //第一张表 第一列 第
 let pageInfo = [];                                  //各页面模版信息
 
 sheets.forEach(function(sheet){
-    for(let rowId in sheet['data']){
-        let row=sheet['data'][rowId];
-        pageInfo.push(row[1]);
+    for(let rowId in sheet['data']){                //sheet['data']是数组的父数组,其子元素是 数值索引:单行信息数组 构成的键值对
+        let item = sheet['data'][rowId][1];         //故rowId为键值对中的数值索引
+        pageInfo.push(item);
     }
 });
 
-pageInfo.shift();
+pageInfo.shift();                                   //删除标题行和课程名行
 pageInfo.shift();
 
 module.exports = {

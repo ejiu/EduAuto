@@ -30,7 +30,7 @@ class HomePagePanel extends PageBase {
         this.beginGroup.play();   
         
         this.className.textFlow = <Array<egret.ITextElement>>[
-            {text: "Junior Level A\nStarting School 1", style: {"strokeColor":0xffffff,stroke:4}}];
+            {text: " ", style: {"strokeColor":0xffffff,stroke:4}}];
     }
 
     public destroy(): void {

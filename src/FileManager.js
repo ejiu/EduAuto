@@ -96,4 +96,7 @@ let createDir = function(srcDir, tarDir, coursesName, autoCover = false, callbac
     });
 }
 
-module.exports = createDir;
+module.exports = {
+    createDir : createDir,
+    copyFile : copyFile
+}

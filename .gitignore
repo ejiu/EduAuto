@@ -1,2 +1,4 @@
 #过滤文件夹result
 result/*
+config/baseCourses/*
+config/templateCourses/*

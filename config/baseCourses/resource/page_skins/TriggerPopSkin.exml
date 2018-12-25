@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <e:Skin class="TriggerPopSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui"
         xmlns:w="http://ns.egret.com/wing">
-	<e:Image width="1024" height="768" x="1.33" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"
-	          source="bg5_jpg"/>
-	<e:Image source="preload_json.right_down" x="400.01" y="249.96" anchorOffsetX="0" width="195" scale9Grid="75,27,8,57"/>
-	<e:Image x="386.34" y="239.29" anchorOffsetX="0" width="40" scale9Grid="75,27,8,57" anchorOffsetY="0" height="40" source="preload_json.n1"/>
-	<e:Label id="label0" text="Go straight." x="421.34" y="254.17" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="199.85" anchorOffsetY="0" height="89.55" touchEnabled="false" wordWrap="true" fontFamily="Muli" textColor="0x000000" size="28" lineSpacing="6" scaleX="1" scaleY="1"/>
-	<e:Image x="658.01" y="249.29" anchorOffsetX="0" width="195" scale9Grid="75,27,8,57" source="preload_json.left_down" visible="false"/>
-	<e:Image x="643.34" y="239.29" anchorOffsetX="0" width="40" scale9Grid="75,27,8,57" anchorOffsetY="0" height="40" source="preload_json.n2" visible="false"/>
-	<e:Label id="label1" text="Go straight." x="679.34" y="253.5" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="199.85" anchorOffsetY="0" height="89.55" touchEnabled="false" wordWrap="true" fontFamily="Muli" textColor="0x000000" size="28" lineSpacing="6" scaleX="1" scaleY="1" visible="false"/>
-	<e:Group id="starPos0" width="200" height="200" x="514.09" y="308.4" anchorOffsetX="0" anchorOffsetY="0"/>
-	<e:Group id="group0" width="200" height="200" x="332.88" y="710.42" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image width="1024" height="768" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false"
+	          source="bg_1_jpg"/>
+	<e:Image x="400.01" y="249.96" anchorOffsetX="0" width="195" source="preload2_json.talk_left3" scale9Grid="75,27,154,57"/>
+	<e:Image x="386.34" y="239.29" anchorOffsetX="0" width="40" anchorOffsetY="0" height="40" source="preload2_json.t1"/>
+	<e:Label id="label0" text="first" x="421.34" y="254.17" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="199.85" anchorOffsetY="0" height="89.55" touchEnabled="false" wordWrap="true" fontFamily="Muli" textColor="0x000000" size="28" lineSpacing="6" scaleX="1" scaleY="1"/>
+	<e:Image x="658.01" y="249.29" anchorOffsetX="0" width="195" source="preload2_json.talk_right3" scale9Grid="47,27,183,57" visible="false"/>
+	<e:Image x="643.34" y="239.29" anchorOffsetX="0" width="40" anchorOffsetY="0" height="40" source="preload2_json.t2" visible="false"/>
+	<e:Label id="label1" text="second" x="679.34" y="253.5" verticalAlign="middle" textAlign="left" anchorOffsetX="0" width="199.85" anchorOffsetY="0" height="89.55" touchEnabled="false" wordWrap="true" fontFamily="Muli" textColor="0x000000" size="28" lineSpacing="6" scaleX="1" scaleY="1" visible="false"/>
+	<e:Group id="starPos0" width="150" height="150" x="514.09" y="308.4" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="group0" width="150" height="150" x="332.88" y="710.42" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="starPos1" width="150" height="150" x="755.51" y="308.4" anchorOffsetX="0" anchorOffsetY="0" visible="false"/>
 	<e:Group width="200" height="200" x="646.33" y="692.99" anchorOffsetX="0" anchorOffsetY="0" id="group1" visible="false"/>
 </e:Skin>

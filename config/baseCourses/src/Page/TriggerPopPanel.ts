@@ -18,31 +18,34 @@ class TriggerPopPanel extends PageBase {
         this.role0.scaleX = 0.5;
         this.role0.scaleY = 0.5;
         this.role0.aniName = "talk";
-        // this.role0.secAniName = "idle";
-        // this.role0.times = 2;
+        this.role0.secAniName = "idle";
+        this.role0.times = 2;
         this.role0.loadRes();
-
     }
+
     private imgRes: string = "";
     private title: string = "";
     private role0: Role;
-    // private role1: Role;
     public label0: eui.Label;
-    // public label1: eui.Label;
     public starPos0: eui.Group;
     public group0: eui.Group;
+    // private role1: Role;
+    // public label1: eui.Label;
     // public group1: eui.Group;
+    // public starPos1: eui.Group;
 
     public initUI(): void {
         this.label0.textFlow = <Array<egret.ITextElement>>[
-            { text: "Go " },
-            { text: "straight", style: { "textColor": 0xFF0000, "href": "event:event1" } },
-            { text: "." }
+            { text: "first" },
+            { text: "second", style: { "textColor": 0xFF0000, "href": "event:event1" } },
+            { text: "third" }
         ];
         this.label0.touchEnabled = true;
         this.label0.addEventListener(egret.TextEvent.LINK, this.TriggerText, this);
-        // this.role0.replay();
+        this.role0.replay();
         this.starPos0.touchEnabled = false;
+        // this.role1.replay();
+        // this.starPos1.touchEnabled = false;
         super.initUI();
     }
     public receiveMsg(msg: string): void {
@@ -52,20 +55,18 @@ class TriggerPopPanel extends PageBase {
                 {
                     switch (data['word']) {
                         case "event1":
-                            this.imgRes = "post_item_21_png";
-                            this.title = "straight";
+                            this.imgRes = "post_item_10_png";
+                            this.title = "second";
                             break;
-                        // case "event2":
-                        //     this.imgRes = "post_item_2_png";
-                        //     this.title = "skirt";
-                        //     break;
                     }
                     PopupsPanel.popups().showFrame(this.imgRes, this.title);
+                    // WordInterpretPanel.popups().showFrame(this.imgRes);
                 }
                 break;
             case "202":
                 {
                     PopupsPanel.popups().closeFrame();
+                    // WordInterpretPanel.popups().closeFrame();
                 }
                 break;
         }

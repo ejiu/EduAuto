@@ -1,17 +1,12 @@
-'use strict';
+// 'use strict';
 
-let testFunc1 = function(str){
-    console.log(1+str);
+let testFun1 = function(num, callback){
+    console.log(num);
+    callback(123);
+};
+
+let callbackTest = function(param1){
+    console.log("callback" + param1);
 }
 
-let testFunc2 = function(str){
-    console.log(2+str);
-}
-
-let num = 1;
-
-module.exports = {
-    n : num,
-    fun1 : testFunc1,
-    fun2 : testFunc2
-}
+testFun1(2, callbackTest);

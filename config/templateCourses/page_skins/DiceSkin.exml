@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="DiceSkin" width="1024" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
-	<w:Declarations>
-	</w:Declarations>
-	<e:Image width="1024" height="768" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" source="bg7_jpg"/>
-	<e:Label text="They are                                  ." x="124.87" y="408.64" verticalAlign="top" textAlign="left" anchorOffsetX="0" width="824.4" anchorOffsetY="0" height="76.04" touchEnabled="false" wordWrap="true" fontFamily="Comic Sans MS" textColor="0x000000" size="50"/>
-</e:Skin>
