@@ -7,14 +7,14 @@ const path = require('path');
 //params: 模板地址, 项目地址, 模版表格信息, 目标表格信息, 回调函数
 let copyTemplate = function(templatePath, targetPath, templateInfo, targetInfo, callback){
     console.log("开始准备模版");
-
-
     //遍历targetInfo,在templateInfo中寻找,若存在则复制(*), 不存在则提示并跳过;
     for(let i = 1; i <= targetInfo.length; i++){
         if(templateInfo.has(targetInfo[i-1])){
             copyPanelSkin(templatePath, targetPath, targetInfo[i-1], i);
         }
     }
+
+    callback();
 }
 
 //params: 资源地址, 项目地址, 模版表格信息, 目标表格信息, 回调函数
@@ -54,8 +54,32 @@ let copyPanelSkin = function(templatePath, targetPath, name, index){
     })
 }
 
+let changePageMgr = function(targetPath, targetInfo, callback){
+    let pageMgrPath = path.join(targetPath, 'src', 'core', 'PageMgr.ts');
+    let pageMgrData = fs.readFileSync(pageMgrPath, 'utf8');
+    
+    let data = '';
+    for(let i = 1; i <= targetInfo.length; i++){
+        data += '\t\t\tcase '+ i + ':{\n';
+        data += '\t\t\t\tpage = new ' + targetInfo[i-1] + 'Panel' + i + '();\n';
+        data += '\t\t\t\tbreak;\n';
+        data += '\t\t\t}\n';
+    }
+    // console.log(data);
+
+    pageMgrData = pageMgrData.replace('// replaceContent', data);
+
+    fs.writeFile(pageMgrPath, pageMgrData, (err)=>{
+        if(err){
+            return console.log(err);
+        }
+    });
+
+    callback();
+}
 
 module.exports = {
     copyTemplate : copyTemplate,
-    copyResource : copyResource
+    copyResource : copyResource,
+    changePageMgr : changePageMgr
 }

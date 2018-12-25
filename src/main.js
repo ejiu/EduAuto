@@ -30,6 +30,19 @@ fileManager.createDir(config.basePath, config.targetPath, targetInfo.coursesName
     config.targetPath = path.join(config.targetPath, targetInfo.coursesName);
     
     ////step3: 根据配置表,复制模版内容及资源图片
-    assembly.copyTemplate(config.templatePath, config.targetPath, templateInfo.pageMap, targetInfo.pageInfo,null);
+    assembly.copyTemplate(config.templatePath, config.targetPath, templateInfo.pageMap, targetInfo.pageInfo,(err)=>{
+        console.log("模版复制完毕!");
+        if (err) {
+            console.log(err);
+        }
+    });
+    
+    assembly.changePageMgr(config.targetPath, targetInfo.pageInfo, (err)=>{
+        console.log("PageMgr修改完毕!");
+        if (err) {
+            console.log(err);
+        }
+    });
+    
     // assembly.copyResource();
 });

@@ -103,13 +103,10 @@ class PageMgr {
         var page:PageBase;
         switch(num)
         {
-            case 1:{
-                page = new HomePagePanel();
-                break;
-            }                     
+// replaceContent
             default:
             {
-                page = new HomePagePanel();
+                page = new HomePagePanel1();
                 break;
             }
         }
