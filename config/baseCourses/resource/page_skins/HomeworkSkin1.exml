@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="HomeworkSkin1" width="1024" height="768" xmlns:e="http://ns.egret.com/eui"
-        xmlns:w="http://ns.egret.com/wing">
-	<e:Image x="0"  source="post_item_1_jpg" width="1024" height="768"/>
-</e:Skin>

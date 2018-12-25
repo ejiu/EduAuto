@@ -5,7 +5,7 @@
 			"name": "loading"
 		},
 		{
-			"keys": "page_info_json,click_mp3,right_tex_png,right_tex_json,right_ske_json,error_tex_png,error_tex_json,error_ske_json,preload_json",
+			"keys": "page_info_json,click_mp3,right_tex_png,right_tex_json,right_ske_json,error_tex_png,error_tex_json,error_ske_json,preload_json,preload2_json",
 			"name": "preload"
 		},
 		{
@@ -214,6 +214,12 @@
 			"url": "images/common/marquee_question.png",
 			"type": "image",
 			"name": "marquee_question_png"
+		},
+		{
+			"url": "images/common/preload2.json",
+			"type": "sheet",
+			"name": "preload2_json",
+			"subkeys": "blue_left,blue_left2,blue_left_down,blue_right,blue_right2,blue_right_down,red_left,red_left2,red_left_down,red_right,red_right2,red_right_down,t1,t2,t3,t4,t5,t6,talk_left1,talk_left2,talk_left3,talk_right1,talk_right2,talk_right3"
 		}
 	]
 }
