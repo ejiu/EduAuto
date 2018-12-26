@@ -25,7 +25,7 @@ let readSheet = function(){
 readSheet();
 pageInfo.shift();                                   //删除标题行和课程名行
 pageInfo.shift();
-console.log(pageInfo.length);
+// console.log(pageInfo.length);
 
 module.exports = {
     coursesName : coursesName,
