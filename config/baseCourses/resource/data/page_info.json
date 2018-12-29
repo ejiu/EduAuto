@@ -1,175 +1,19 @@
 {
-    "pageCount":15,  
+    "pageCount":pageNum,  
 
     "page1": {
+        "studentPos":[
+            {
+                "posX":0,
+                "posY":588
+            },
+            {
+                "posX":844,
+                "posY":588
+            }],
+        "isInteraction": true,
         "resources":
         [
             "start_bg_png","start_f_bg_png","betty_tex_png","betty_tex_json","betty_ske_json"
         ]
-    },
-
-    "page2":
-    {
-        "mainTitle":"Warming up",
-        "time":"2 min",
-        "secTitle":"Greetings.",
-        "tips":"Please introduce our new friend Betty to students.",    
-        "studentPos":[
-        {
-            "posX":0,
-            "posY":588
-        },
-        {
-            "posX":844,
-            "posY":588
-        }],
-        "isInteraction": true,
-        "resources":
-        [
-            "start_bg_png"
-        ]
-    } ,
-    "page3":
-    {
-        "mainTitle":"Key Words",
-        "time":"10 min",
-        "secTitle":"Today Betty is going to visit grandma. Her mum draws a map.",
-        "tips":"This part is to teach key words. Please focus on the red word.\nTeach map.  Click the red word map, it will show a word card.",    
-        "resources":
-        [
-            "start_bg_png"
-        ]
-    },
-    "page4":
-    {
-        "mainTitle":"Key Words",
-        "time":"2 min",
-        "secTitle":"Betty is looking at the map.",
-        "tips":"Teach park. Click the word ‘park’, it will show a word card.",    
-        "resources":
-        [
-            "start_bg_png"
-        ]
-    },
-    "page5":
-    {
-        "mainTitle":"Key Words",
-        "time":"2 min",
-        "secTitle":"Betty is talking with her mum.",
-        "tips":"Teach market. Click the word ‘market’, it will show a word card.",    
-        "resources":
-        [
-            "start_bg_png"
-        ]
-    },
-    "page6":
-    {
-        "mainTitle":"Key Words",
-        "time":"2 min",
-        "secTitle":"Betty is talking with her mum.",
-        "tips":"Teach restaurant. Click the word ‘restaurant’, it will show a word card.",    
-        "resources":
-        [
-            "start_bg_png"
-        ]
-    },
-    "page7":
-    {
-        "mainTitle":"Key Words",
-        "time":"2 min",
-        "secTitle":"Betty is talking with her mum.",
-        "tips":"Teach ‘book shop’ and ‘church’. \nClick ‘book shop’, it will show the word card;\nClick ‘church’, it will show the word card.",    
-        "resources":
-        [
-            "start_bg_png"
-        ]
-    },
-    "page8":
-    {
-        "mainTitle":"Key Words",
-        "time":"2 min",
-        "secTitle":"Betty is talking with her mum.",
-        "tips":"Ask students about the places they have learned so far;\nGo to next slide to review.",    
-        "resources":
-        [
-            "start_bg_png"
-        ]
-    },
-    "page9":
-    {
-        "mainTitle":"Review",
-        "time":"2 min",
-        "secTitle":"",
-        "tips":"Review all the words. Click the arrow, it will jump to the next word card.",    
-        "resources":
-        [
-            "start_bg_png"
-        ]
-    },
-    "page10":
-    {
-        "mainTitle":"Practice",
-        "time":"2 min",
-        "secTitle":"Take turns to play! Click ONE card each time and say the word.",
-        "tips":"Each time, invite ONE student to play. Student should take turns to click the card and say the word one by one.\nEvery student can click up to three cards one time.",    
-        "resources":
-        [
-            "start_bg_png"
-        ]
-    },
-    "page11":
-    {
-        "mainTitle":"Let’s talk",
-        "time":"2 min",
-        "secTitle":"",
-        "tips":"Please teach the conversation first and invite students to role play.",    
-        "resources":
-        [
-            "start_bg_png"
-        ]
-    },
-    "page12":
-    {
-        "mainTitle":"Let’s talk",
-        "time":"2 min",
-        "secTitle":"",
-        "tips":"Please teach the conversation first and invite students to role play.",    
-        "resources":
-        [
-            "start_bg_png"
-        ]
-    },
-    "page13":
-    {
-        "mainTitle":"Let’s talk",
-        "time":"2 min",
-        "secTitle":"",
-        "tips":"Please teach the conversation first and invite students to role play.",    
-        "resources":
-        [
-            "start_bg_png"
-        ]
-    },
-    "page14":
-    {
-        "mainTitle":"Summary",
-        "time":"2 min",
-        "secTitle":"",
-        "tips":"",    
-        "resources":
-        [
-            "start_bg_png"
-        ]
-    },
-    "page15":
-    {
-        "mainTitle":"Homework",
-        "time":"1 min",
-        "secTitle":"",
-        "tips":"",    
-        "resources":
-        [
-            "start_bg_png"
-        ]
     }
-}

@@ -68,7 +68,6 @@ let changePageMgr = function(targetPath, targetInfo, callback){
         data += '\t\t\t\tbreak;\n';
         data += '\t\t\t}\n';
     }
-    // console.log(data);
 
     pageMgrData = pageMgrData.replace('// replaceContent', data);
 
@@ -81,28 +80,65 @@ let changePageMgr = function(targetPath, targetInfo, callback){
     callback();
 }
 
-let changePageInfo = function(targetPath, targetInfo, callback){
-    for(let i = 1; i <= targetInfo.length; i++){
-        //targetInfo[i-1];
-        //遍历TargetInfo对应的文件,若存在_info,且字符串不为page_info,则在Base_page_info中找到该info,
-        //将该info追加后缀_index写入新项目page_info,并修改该脚本;
+let changePageInfo = function(templatePath ,targetPath, targetInfo, callback){
 
+    let pageinfoAdd = "";
+    let pageAdd = "";
+
+    let targetPageInfoPath = path.join(targetPath, 'resource', 'data', 'page_info.json');
+    let templatePageInfoPath = path.join(templatePath, 'resource', 'data', 'page_info.json');
+    let templatePageInfo = fs.readFileSync(templatePageInfoPath);
+    let pageInfo = JSON.parse(templatePageInfo);
+
+    for(let i = 1; i <= targetInfo.length; i++){
+
+        //1. 补充page_info中每页的信息
+        if(i>1){
+            let tempPage = ',\
+                \n\t\"page' + i + '\":\
+                \n\t{\
+                \n\t\t\"mainTitle\":\"Summary\",\
+                \n\t\t\"time\":\"2 min\",\
+                \n\t\t\"secTitle\":\"\",\
+                \n\t\t\"tips\":\"\",\
+                \n\t\t\"resources\": \
+                \n\t\t[\
+                \n\t\t\t\"bg_1_jpg\"\
+                \n\t\t]\
+                \n\t}\n';
+            
+            pageAdd += tempPage;
+        }
+
+        //2. 替换各panel中xxx_info
         let newPageName = targetInfo[i-1] + 'Panel' + i + '.ts';
         let targetPagePath = path.join(targetPath, 'src', 'Page', newPageName);
-
+        
         let panelData = fs.readFileSync(targetPagePath, 'utf8');
+        
+        //!!!!  xxx_info需用 '' 单引号对包裹,不可 "" 双引号对包裹
+        let matchStr = panelData.match(/\'.{1,30}_info\'/);
+        if(matchStr == null){
+            continue;
+        }
+        let tempInfo = matchStr[0];
+        
+        //替换规则: puzzlePanel1.ts中的"puzzle_info"改名为"puzzle_info_1"
+        panelData = panelData.replace(/\'(.{1,30}_info)\'/g, '\''+'$1' + '_' + i + '\'');
+        fs.writeFileSync(targetPagePath, panelData);
 
-        let tempInfo = panelData.match(/\'\D{1,30}_info\'/)[0];
-        // let result = panelData.replace(/\'\(\D{1,30}_info\)\'/g, 'abc');
-        panelData = panelData.replace('jsonData', 'abc');
-        // let result = panelData.replace(/\'\(\D{1,30}_info\)\'/g, '\''+'$1' + '_123\'');
-        console.log(tempInfo);
-        console.log(panelData);
-        //正则匹配规则:
+        //3. 添加xxx_info到page_info.json
+        tempInfo = tempInfo.slice(1, tempInfo.length-1);
+        let tempStr = ',\n\t\"' + tempInfo + "_" + i + "\":\n\t" + JSON.stringify(pageInfo[tempInfo]) + '\n';
 
-        // 类似 "xxxxxx_info" 的字符串, 统一替换为 "xxxxxx_info_index"的字符串,并复制到page_info中;
-        // 可能的干扰项"page_info_json";
+        pageinfoAdd += tempStr;
     }
+
+    let targetPageInfo = fs.readFileSync(targetPageInfoPath, 'utf8');
+    targetPageInfo = targetPageInfo.replace('pageNum', targetInfo.length);
+    fs.writeFileSync(targetPageInfoPath, targetPageInfo);//TODO更换方式
+    fs.appendFileSync(targetPageInfoPath, pageAdd);
+    fs.appendFileSync(targetPageInfoPath, pageinfoAdd + '}');
 }
 
 module.exports = {

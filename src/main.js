@@ -9,16 +9,29 @@ const path = require('path');
 
 
 // //正则表达式测试
-// let testString = "---------------\n\"catch_info\"\n---------------\n";
+// let testString = "tImg.source = this.jsonData['drag_multi_3pic_info']['items'][i];";
 // // let testString = "foo bar foo bar";
 
 // // let result = testString.replace(/(foo)/g, '$1'+"abc" );
 
 // // let result = testString.replace(/\"(\D{1,}_info)\"/, '"' + '$1' + '_123\"');
-// let result = testString.match(/\"(\D{1,}_info)\"/);
+// // let result = testString.match(/\'.{1,30}_info\'/);
+// let result = '\t\"page' + 1 + '\":\
+//             \n\t{\
+//             \n\t\t\"mainTitle\":\"Summary\",\
+//             \n\t\t\"time\":\"2 min\",\
+//             \n\t\t\"secTitle\":\"\",\
+//             \n\t\t\"tips\":\"\",\
+//             \n\t\t\"resources\": \
+//             \n\t\t[\
+//             \n\t\t\t\"bg_1_jpg\"\
+//             \n\t\t[\
+//             \n\t},\n';
 
-// console.log(testString);
+// result += result;
+// // console.log(testString);
 // console.log(result);
+
 
 
 // const test = require('./test.js');
@@ -50,7 +63,7 @@ fileManager.createDir(config.basePath, config.targetPath, targetInfo.coursesName
             console.log(err);
         }
 
-        assembly.changePageInfo(config.targetPath, targetInfo.pageInfo, (err)=>{
+        assembly.changePageInfo(config.templatePath, config.targetPath, targetInfo.pageInfo, (err)=>{
             console.log("PageMgr修改完毕!");
             if (err) {
                 console.log(err);
