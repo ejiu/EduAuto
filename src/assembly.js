@@ -1,7 +1,6 @@
 'use strict';
 
 const fs = require('fs');
-const fileManager = require('./FileManager.js');
 const path = require('path');
 
 //params: 模板地址, 项目地址, 模版表格信息, 目标表格信息, 回调函数
@@ -91,7 +90,6 @@ let changePageInfo = function(templatePath ,targetPath, targetInfo, callback){
     let pageInfo = JSON.parse(templatePageInfo);
 
     for(let i = 1; i <= targetInfo.length; i++){
-
         //1. 补充page_info中每页的信息
         if(i>1){
             let tempPage = ',\
@@ -106,7 +104,6 @@ let changePageInfo = function(templatePath ,targetPath, targetInfo, callback){
                 \n\t\t\t\"bg_1_jpg\"\
                 \n\t\t]\
                 \n\t}\n';
-            
             pageAdd += tempPage;
         }
 
@@ -139,6 +136,8 @@ let changePageInfo = function(templatePath ,targetPath, targetInfo, callback){
     fs.writeFileSync(targetPageInfoPath, targetPageInfo);//TODO更换方式
     fs.appendFileSync(targetPageInfoPath, pageAdd);
     fs.appendFileSync(targetPageInfoPath, pageinfoAdd + '}');
+
+    callback();
 }
 
 module.exports = {

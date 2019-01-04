@@ -1,16 +1,7 @@
 {
     "pageCount":pageNum,  
 
-    "page1": {
-        "studentPos":[
-            {
-                "posX":0,
-                "posY":588
-            },
-            {
-                "posX":844,
-                "posY":588
-            }],
+    "page1": {        
         "isInteraction": true,
         "resources":
         [
